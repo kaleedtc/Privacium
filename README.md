@@ -4,10 +4,11 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ---
 ## ✨ Features
-- **🔒 Truly Private:** No ads, no tracking, and no permissions.
+- **🔒 Privacy First:** No ads, no tracking, and no permissions.
 - **🎨 Dynamic Theming:** Automatically adapts to your wallpaper and system theme on Android 12 and newer.
 - **🌍 Full RTL Support:** Perfect usability for right-to-left languages like Arabic.
-- **🚀 Modern UI:** A sleek and responsive user interface built entirely with Jetpack Compose.
+- **🚀 Modern UI:** A clean and responsive user interface built entirely with Jetpack Compose.
+- **❤️ FOSS:** 100% Free and Open-Source Software.
 - **📚 Trusted Information:** All recommendations and guides are based on the criteria from the [Privacy Guides](https://www.privacyguides.org) team.
 
 ---
@@ -25,7 +26,7 @@ You will be able to download the app from the following sources:
 - **F-Droid** (Coming Soon)
 
 ## 📜 License
-This project is distributed under the MIT License. See `LICENSE` for more information.
+This project is distributed under the MIT License. See [LICENSE](https://github.com/kaleedtc/Privacium/blob/main/LICENSE) for more information.
 
 ## 🙏 Acknowledgments
 - A huge thanks to the entire team at [**Privacy Guides**](https://www.privacyguides.org) for their work and for maintaining the standards that this app relies on.
