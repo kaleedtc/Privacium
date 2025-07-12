@@ -17,7 +17,7 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ## 📥 Installation
 You will be able to download the app from the following sources:
-- **[GitHub Releases](https://github.com/your-username/your-repo/releases)** (Recommended)
+- **[GitHub Releases](https://github.com/kaleedtc/Privacium/releases)** (Recommended)
 - **F-Droid** (Coming Soon)
 
 ---
