@@ -1,0 +1,57 @@
+<vector xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:viewportHeight="3061" android:viewportWidth="3061" android:width="24dp">
+      
+    <group>
+            
+        <clip-path android:pathData="M1532,1530.5m-1530.5,0a1530.5,1530.5 0,1 1,3061 0a1530.5,1530.5 0,1 1,-3061 0"/>
+            
+        <path android:fillColor="#008079" android:fillType="nonZero" android:pathData="M0,1814.2h3061.4v1247.2H0z"/>
+            
+        <path android:fillColor="#1F2603" android:fillType="nonZero" android:pathData="M0,0h3061.4v1814.2H0z"/>
+          
+    </group>
+      
+    <group>
+            
+        <clip-path android:pathData="M1532,1530.5m-1530.5,0a1530.5,1530.5 0,1 1,3061 0a1530.5,1530.5 0,1 1,-3061 0"/>
+            
+        <path android:fillAlpha="0.2" android:fillType="evenOdd" android:pathData="m1002,2317 l970,-1500 1414,1422 -325,1085H1972l-138,-158z">
+                  
+            <aapt:attr name="android:fillColor">
+                        
+                <gradient android:endX="3271.9" android:endY="3324" android:startX="1126.8" android:startY="829.5" android:type="linear">
+                              
+                    <item android:color="#CC000000" android:offset="0"/>
+                              
+                    <item android:color="#33000000" android:offset="1"/>
+                            
+                </gradient>
+                      
+            </aapt:attr>
+                
+        </path>
+          
+    </group>
+      
+    <group>
+            
+        <clip-path android:pathData="M1532,1530.5m-1530.5,0a1530.5,1530.5 0,1 1,3061 0a1530.5,1530.5 0,1 1,-3061 0"/>
+            
+        <path android:fillColor="#EFBC48" android:fillType="nonZero" android:pathData="M1532,643C1197.4,643 807,1162.2 807,1662.8 807,2163.5 1131.6,2456 1532,2456s725,-292.5 725,-793.2C2257,1162.2 1866.6,643 1532,643Z"/>
+            
+        <path android:fillColor="#E2CDB3" android:fillType="evenOdd" android:pathData="m2316.4,1612.8 l-119.2,117.9L2015.9,1489l-181.2,241.7 -120.8,-120.8 -120.8,120.8 -120.9,-181.2 -120.8,126.9 -121,-66.5 -60.4,60.4 -60.4,-181.2 -241.7,181.2 -119,-62S747,1649.6 747,1670.2C747,2204.1 1098.7,2516 1532.5,2516c433.8,0 785.5,-311.9 785.5,-845.8a1064.3,1064.3 0,0 0,-1.6 -57.5Z"/>
+            
+        <path android:fillColor="#FCF1E3" android:fillType="nonZero" android:pathData="M1532.4,582C1297.5,582 1037.2,814.1 883,1122.9l45.1,62.8 181.2,-181 60.4,181 60.4,-60.4 120.9,60.4 120.9,-120.7 60.4,120.7 120.9,-60.4 120.9,60.4 120.9,-120.7L2076.1,1246 2187,1133.7C2033.8,819.7 1770.1,582 1532.4,582Z"/>
+            
+        <path android:fillColor="#1F190A" android:fillType="nonZero" android:pathData="M1230,1396.5a60.5,90.5 0,1 0,121 0a60.5,90.5 0,1 0,-121 0z"/>
+            
+        <path android:fillColor="#1F190A" android:fillType="nonZero" android:pathData="M1713,1396.5a60.5,90.5 0,1 0,121 0a60.5,90.5 0,1 0,-121 0z"/>
+            
+        <path android:fillColor="#F9F8F4" android:fillType="nonZero" android:pathData="M1755,1314.1c-1.4,0 -2.7,0.1 -4.1,0.3 -10.4,6.2 -19.3,16.5 -25.9,29.6 0,16.6 13.4,30 30,30 16.6,0 30,-13.4 30,-30 0,-16.6 -13.4,-30 -30,-30v0.1ZM1272,1314.1c-1.4,0 -2.7,0.1 -4.1,0.3 -10.4,6.2 -19.4,16.5 -25.9,29.6 0,16.6 13.4,30 30,30 16.6,0 30,-13.4 30,-30 0,-16.6 -13.4,-30 -30,-30v0.1Z"/>
+            
+        <path android:fillColor="#F8E4C3" android:fillType="nonZero" android:pathData="M1534.4,644C1299.5,644 1039.2,855.9 885,1137.6l45.1,57.3 181.2,-165.3 60.4,165.3 60.4,-55.1 120.9,55.1 120.9,-110.2 60.4,110.2 120.9,-55.1 120.9,55.1 120.9,-110.2L2078.1,1250 2189,1147.5C2035.8,860.9 1772.1,644 1534.4,644Z"/>
+            
+        <path android:fillColor="#F9E4C4" android:fillType="nonZero" android:pathData="m2316.4,1605.4 l-119.2,110.9L2016,1489l-181.2,227.3 -120.8,-113.7 -120.8,113.7 -120.9,-170.4 -120.8,119.3 -121,-62.5 -60.4,56.8 -60.4,-170.4 -241.7,170.4 -119,-58.4S747,1640 747,1659.4C747,2161.6 1098.7,2455 1532.5,2455c433.8,0 785.5,-293.4 785.5,-795.6 0,-17.9 -0.5,-35.9 -1.6,-54Z"/>
+          
+    </group>
+    
+</vector>

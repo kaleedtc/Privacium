@@ -1,0 +1,1277 @@
+<resources>
+
+    <string name="app_name" translatable="false">Privacium</string>
+    <string name="app_description">
+        Privacium is a privacy-focused app that provides
+        a curated list of privacy-respecting software and services.
+    </string>
+
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_settings">Settings</string>
+    <string name="bottom_nav_search">Search</string>
+    <string name="search_for_tools">Search for tools…</string>
+    <string name="no_tools_found_for">No tools found for \"%1$s\".</string>
+    <string name="back_button" translatable="false">Back</string>
+    <string name="back_button_content_description">Navigate back to the previous screen</string>
+    <string name="homepage">Homepage</string>
+    <string name="settings_title">Settings</string>
+    <string name="theme_setting_title">Theme</string>
+    <string name="language_setting_title">Language</string>
+    <string name="choose_theme_title">Choose Theme</string>
+    <string name="theme_auto">System Default</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="choose_language_title">Choose Language</string>
+    <string name="about_setting_title">About</string>
+    <string name="homepage_label">Homepage</string>
+    <string name="app_homepage_url" translatable="false">https://github.com/kaleedtc/Privacium</string>
+    <string name="developer_homepage_url" translatable="false">https://github.com/kaleedtc</string>
+    <string name="open_in_new_button" translatable="false">Open in new</string>
+    <string name="developer_label">developer</string>
+
+    <string name="internet_browsing">Internet Browsing</string>
+    <string name="desktop_browsers">Desktop Browsers</string>
+    <string name="mobile_browsers">Mobile Browsers</string>
+    <string name="browser_extensions">Browser Extensions</string>
+    <string name="torbrowser">Tor Browser</string>
+    <string name="operating_systems">Operating Systems</string>
+    <string name="desktop">Desktop</string>
+    <string name="android">Android</string>
+    <string name="router_firmware">Router Firmware</string>
+    <string name="software">Software</string>
+    <string name="ai_chat">AI Chat</string>
+    <string name="password_managers">Password Managers</string>
+    <string name="multifactor_authentication">Multifactor Authentication</string>
+    <string name="email_clients">Email Clients</string>
+    <string name="calendar">Calendar</string>
+    <string name="office_suites">Office Suites</string>
+    <string name="notebooks">Notebooks</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="file_sharing">File Sharing</string>
+    <string name="metadata">Metadata</string>
+    <string name="document_collaboration">Document Collaboration</string>
+    <string name="encryption">Encryption</string>
+    <string name="frontends">Frontends</string>
+    <string name="health">Health</string>
+    <string name="language_tools">Language Tools</string>
+    <string name="maps">Maps</string>
+    <string name="news_aggregators">News Aggregators</string>
+    <string name="pastebins">Pastebins</string>
+    <string name="real_time_communication">Real-Time Communication</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="providers">Providers</string>
+    <string name="cloud_storage">Cloud Storage</string>
+    <string name="data_removal_services">Data Removal Services</string>
+    <string name="dns_resolvers">DNS Resolvers</string>
+    <string name="email_aliasing">Email Aliasing</string>
+    <string name="email_services">Email Services</string>
+    <string name="financial_services">Financial Services</string>
+    <string name="photo_management">Photo Management</string>
+    <string name="search_engines">Search Engines</string>
+    <string name="vpn_services">VPN Services</string>
+    <string name="hardware">Hardware</string>
+    <string name="mobile_phones">Mobile Phones</string>
+    <string name="security_keys">Security Keys</string>
+    <string name="advanced">Advanced</string>
+    <string name="alternative_networks">Alternative Networks</string>
+    <string name="device_integrity">Device Integrity</string>
+    <string name="self_hosting">Self-Hosting</string>
+    <string name="email_servers">Email Servers</string>
+    <string name="socialnetworks">Social Networks</string>
+    <string name="frontend">Frontend</string>
+
+    <string name="brave_browser" translatable="false">Brave Browser</string>
+    <string name="brave_description">
+            Brave is built upon the Chromium web browser project
+            and includes a built-in content blocker and privacy features,
+            many of which are enabled by default.
+    </string>
+    <string name="brave_page" translatable="false">https://brave.com/</string>
+
+    <string name="firefox" translatable="false">Firefox</string>
+    <string name="firefox_description">
+        Firefox provides strong privacy settings such as Enhanced Tracking
+        Protection, which can help block various types of tracking.
+    </string>
+    <string name="firefox_page" translatable="false">https://www.mozilla.org/en-US/firefox/new/</string>
+
+    <string name="mullvad_browser" translatable="false">Mullvad Browser</string>
+    <string name="mullvad_browser_description">
+        Mullvad Browser is a version of Tor Browser with Tor network integrations removed.
+        It aims to provide to VPN users Tor Browser\'s anti-fingerprinting browser technologies,
+        which are key protections against Mass Surveillance.
+    </string>
+    <string name="mullvad_browser_page" translatable="false">https://mullvad.net/en/browser</string>
+
+    <string name="cromite" translatable="false">Cromite</string>
+    <string name="cromite_description">
+        Cromite is a Chromium-based browser with built-in ad blocking,
+        fingerprinting protections, and other privacy and security enhancements.
+    </string>
+    <string name="cromite_page" translatable="false">https://github.com/uazo/cromite</string>
+
+    <string name="safari" translatable="false">Safari</string>
+    <string name="safari_description">
+        Safari is the default browser in iOS.
+        It includes privacy features such as Intelligent Tracking Prevention,
+        isolated and ephemeral Private Browsing tabs, fingerprinting protection,
+        and fingerprint randomization.
+    </string>
+    <string name="safari_page" translatable="false">https://www.apple.com/safari/</string>
+
+    <string name="ublock_origin" translatable="false">uBlock Origin</string>
+    <string name="ublock_origin_description">
+        uBlock Origin is a popular content blocker that could help you
+        block ads, trackers,and fingerprinting scripts.
+    </string>
+    <string name="ublock_page" translatable="false">https://github.com/gorhill/uBlock#readme</string>
+
+    <string name="ublock_origin_lite" translatable="false">uBlock Origin Lite</string>
+    <string name="ublock_origin_lite_description">
+        Compared to the original uBlock Origin, this extension does not require broad
+        permissions to function, which lowers the risk of  Passive Attacks
+        on your browser if a malicious rule is added to a filter list.
+    </string>
+    <string name="ubol_page" translatable="false">https://github.com/uBlockOrigin/uBOL-home#readme</string>
+
+    <string name="adguard" translatable="false">AdGuard</string>
+    <string name="adguard_description">
+        AdGuard for iOS is a free and open-source content-blocking extension
+        for Safari that uses the native Content Blocker API.
+    </string>
+    <string name="adguard_ios_page" translatable="false">https://adguard.com/en/adguard-ios/overview.html</string>
+
+    <string name="tor_browser" translatable="false">Tor Browser</string>
+    <string name="tor_browser_description">
+        Tor Browser is the top choice if you need anonymity,as it provides
+        you with access to the Tor network and bridges,and it includes default settings and extensions
+        that are automatically configured by the default security levels: Standard, Safer and Safest.
+    </string>
+    <string name="torproject_page" translatable="false">https://www.torproject.org/</string>
+
+    <string name="onion_browser" translatable="false">Onion Browser</string>
+    <string name="onion_browser_description">
+        Onion Browser is an open-source browser that lets you browse
+        the web anonymously over the Tor network on iOS devices and is endorsed by the Tor Project.
+    </string>
+    <string name="onionbrowser_page" translatable="false">https://onionbrowser.com/</string>
+
+    <string name="fedora" translatable="false">Fedora</string>
+    <string name="fedora_description">
+        Fedora Linux is our recommended desktop distribution for people new to Linux.
+        Fedora generally adopts newer technologies (e.g., Wayland and PipeWire) before other distributions.
+        These new technologies often come with improvements in security, privacy, and usability in general.
+    </string>
+    <string name="fedoraproject_page" translatable="false">https://fedoraproject.org/</string>
+
+    <string name="opensuse_tumbleweed" translatable="false">openSUSE Tumbleweed</string>
+    <string name="opensuse_tumbleweed_description">
+        openSUSE Tumbleweed is a stable rolling release distribution.
+        openSUSE Tumbleweed uses Btrfs and Snapper to ensure that snapshots can be rolled back should there be a problem.
+    </string>
+    <string name="tumbleweed_page" translatable="false">https://get.opensuse.org/tumbleweed</string>
+
+    <string name="arch_linux" translatable="false">Arch Linux</string>
+    <string name="arch_description">
+        Arch Linux is a lightweight, do-it-yourself (DIY) distribution,
+        meaning that you only get what you install.
+    </string>
+    <string name="archlinux_page" translatable="false">https://archlinux.org/</string>
+
+    <string name="fedora_atomic" translatable="false">Fedora Atomic</string>
+    <string name="atomic_description">
+        Fedora Atomic Desktops are variants of Fedora which use the rpm-ostree package manager
+        and have a strong focus on containerized workflows and Flatpak for desktop applications.
+    </string>
+    <string name="atomic_page" translatable="false">https://fedoraproject.org/atomic-desktops</string>
+
+    <string name="nixos" translatable="false">NixOS</string>
+    <string name="nixos_description">
+        NixOS is an independent distribution based on the Nix package manager
+        with a focus on reproducibility and reliability.
+    </string>
+    <string name="nixos_page" translatable="false">https://nixos.org/</string>
+
+    <string name="whonix" translatable="false">Whonix</string>
+    <string name="whonix_description">
+        Whonix is based on Kicksecure, a security-focused fork of Debian. It aims to provide privacy,
+        security, and  Anonymity on the internet. Whonix is best used in conjunction with Qubes OS.
+    </string>
+    <string name="whonix_page" translatable="false">https://whonix.org/</string>
+
+    <string name="tails" translatable="false">Tails</string>
+    <string name="tails_description">
+        Tails is a live operating system based on Debian that routes all communications through Tor,
+        which can boot on almost any computer from a DVD, USB stick, or SD card installation.
+        It uses Tor to preserve privacy and Anonymity while circumventing censorship,
+        and it leaves no trace of itself on the computer it is used on after it is powered off.
+    </string>
+    <string name="tails_page" translatable="false">https://tails.net/</string>
+
+    <string name="qubes_os" translatable="false">Qubes OS</string>
+    <string name="qubesos_description">
+        Qubes OS is an open-source operating system designed to provide strong security for desktop computing
+        through secure virtual machines. Qubes is based on Xen, the X Window System, and Linux.
+        It can run most Linux applications and use most of the Linux drivers.
+    </string>
+    <string name="qubes_page" translatable="false">https://qubes-os.org/</string>
+
+    <string name="secureblue" translatable="false">Secureblue</string>
+    <string name="secureblue_description">
+        Secureblue is a security-focused operating system based on Fedora Atomic Desktops.
+        It includes a number of security features intended to proactively defend against
+        the exploitation of both known and unknown vulnerabilities, and ships with Trivalent,
+        their hardened, Chromium-based web browser.
+    </string>
+    <string name="secureblue_page" translatable="false">https://secureblue.dev/</string>
+
+    <string name="kicksecure" translatable="false">Kicksecure</string>
+    <string name="kicksecure_description">
+        Kicksecure—in oversimplified terms—is a set of scripts, configurations,
+        and packages that substantially reduce the attack surface of Debian.
+        It covers a lot of privacy and hardening recommendations by default.
+        It also serves as the base OS for Whonix.
+    </string>
+    <string name="kicksecure_page" translatable="false">https://kicksecure.com/</string>
+
+    <string name="grapheneos" translatable="false">GrapheneOS</string>
+    <string name="grapheneos_description">
+        GrapheneOS provides additional security hardening and privacy improvements.
+        It has a hardened memory allocator, network and sensor permissions,
+        and various other security features.
+        GrapheneOS also comes with full firmware updates and signed builds,
+        so verified boot is fully supported.
+    </string>
+    <string name="grapheneos_page" translatable="false">https://grapheneos.org/</string>
+
+    <string name="shelter" translatable="false">Shelter</string>
+    <string name="shelter_description">
+        Shelter is an app that helps you leverage Android\'s Work Profile functionality
+        to isolate or duplicate apps on your device.
+    </string>
+    <string name="shelter_page" translatable="false">https://gitea.angry.im/PeterCxy/Shelter#shelter</string>
+
+    <string name="secure_camera" translatable="false">Secure Camera</string>
+    <string name="secure_camera_description">
+        Secure Camera is a camera app focused on privacy and security which can capture images,
+        videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight,
+        Face Retouch, and Auto) are also supported on available devices.
+    </string>
+    <string name="camera_page" translatable="false">https://github.com/GrapheneOS/Camera#readme</string>
+
+    <string name="secure_pdf_viewer" translatable="false">Secure PDF Viewer</string>
+    <string name="pdfviewer_description">
+        Secure PDF Viewer is a PDF viewer based on pdf.js that doesn\'t require any permissions.
+        The PDF is fed into a sandboxed WebView.
+        This means that it doesn\'t require permission directly to access content or files.
+    </string>
+    <string name="pdfviewer_page" translatable="false">https://github.com/GrapheneOS/PdfViewer#readme</string>
+
+    <string name="obtainium" translatable="false">Obtainium</string>
+    <string name="obtainium_description">
+        Obtainium is an app manager which allows you to install and update apps directly from the developer\'s
+        own releases page (i.e. GitHub, GitLab, the developer\'s website, etc.),
+        rather than a centralized app store/repository.
+        It supports automatic background updates on Android 12 and higher.
+    </string>
+    <string name="obtainium_page" translatable="false">https://github.com/ImranR98/Obtainium#readme</string>
+
+    <string name="aurora_store" translatable="false">Aurora Store</string>
+    <string name="aurora_store_description">
+        Aurora Store is a Google Play Store client which does not require a Google account,
+        Google Play Services, or microG to download apps.
+    </string>
+    <string name="auroraoss_page" translatable="false">https://auroraoss.com/</string>
+
+    <string name="f_droid" translatable="false">F-Droid</string>
+    <string name="f_droid_description">
+        F-Droid is often recommended as an alternative to Google Play, particularly within the privacy community.
+    </string>
+    <string name="f_droid_page" translatable="false">https://f-droid.org/</string>
+
+    <string name="openwrt" translatable="false">OpenWrt</string>
+    <string name="openwrt_description">
+        OpenWrt is a Linux-based operating system; it\'s primarily used on embedded devices to route network traffic.
+        It includes util-linux, uClibc, and BusyBox. All the components have been optimized for home routers.
+    </string>
+    <string name="openwrt_page" translatable="false">https://openwrt.org/</string>
+
+    <string name="opnsense" translatable="false">OPNsense</string>
+    <string name="opnsense_description">
+        OPNsense is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features
+        such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins.
+    </string>
+    <string name="opnsense_page" translatable="false">https://opnsense.org/</string>
+
+    <string name="kobold_cpp" translatable="false">Kobold.cpp</string>
+    <string name="koboldcpp_description">
+        Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
+    </string>
+    <string name="koboldcpp_page" translatable="false">https://github.com/LostRuins/koboldcpp#readme</string>
+
+    <string name="ollama" translatable="false">Ollama</string>
+    <string name="ollama_description">
+        Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows.
+        Ollama is a great choice if you\'re looking for an AI client that\'s easy-to-use,
+        widely compatible, and fast due to its use of inference and other techniques.
+        It also doesn\'t involve any manual setup.
+    </string>
+    <string name="ollama_page" translatable="false">https://ollama.com/</string>
+
+    <string name="llamafile" translatable="false">Llamafile</string>
+    <string name="llamafile_description">
+        Llamafile is a lightweight, single-file executable that allows users to run LLMs locally
+        on their own computers without any setup involved.
+        It is backed by Mozilla and available on Linux, macOS, and Windows.
+    </string>
+    <string name="llamafile_page" translatable="false">https://github.com/Mozilla-Ocho/llamafile#readme</string>
+
+    <string name="tuta" translatable="false">Tuta</string>
+    <string name="tuta_description">
+        Tuta offers a free and encrypted calendar across their supported platforms.
+        Features include: automatic E2EE of all data, sharing features,
+        import/export functionality, multifactor authentication, and more.
+    </string>
+    <string name="tuta_page" translatable="false">https://tuta.com/calendar</string>
+
+    <string name="proton_calendar" translatable="false">Proton Calendar</string>
+    <string name="protoncalendar_description">
+        Proton Calendar is an encrypted calendar service available to Proton members via web or mobile clients.
+        Features include: automatic E2EE of all data, sharing features, import/export functionality, and more.
+    </string>
+    <string name="protoncalendar_page" translatable="false">https://proton.me/calendar</string>
+
+    <string name="monero" translatable="false">Monero</string>
+    <string name="monero_description">
+        Monero uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve
+        Anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses,
+        and source of funds without any hoops to jump through,
+        making it an ideal choice for cryptocurrency novices.
+    </string>
+    <string name="monero_page" translatable="false">https://getmonero.org/</string>
+
+    <string name="cake_wallet" translatable="false">Cake Wallet</string>
+    <string name="cakewallet_description">
+        Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet
+        for iOS and Android is available at Monero.com.
+    </string>
+    <string name="cakewallet_page" translatable="false">https://cakewallet.com/</string>
+
+    <string name="monerujo" translatable="false">Monerujo</string>
+    <string name="monerujo_description">An Android Monero Wallet</string>
+    <string name="monerujo_page" translatable="false">https://www.monerujo.app/</string>
+
+    <string name="feather_wallet" translatable="false">Feather Wallet</string>
+    <string name="feather_description">
+        Feather is a free, open-source Monero wallet for Linux, Tails, Windows and macOS.
+    </string>
+    <string name="featherwallet_page" translatable="false">https://featherwallet.org/</string>
+
+    <string name="mat2" translatable="false">MAT2</string>
+    <string name="mat2_description">
+        MAT2 is free, cross-platform software which allows you to remove metadata from image,
+        audio, torrent, and document file types.
+    </string>
+    <string name="mat2_page" translatable="false">https://0xacab.org/jvoisin/mat2</string>
+
+    <string name="exiferaser" translatable="false">ExifEraser</string>
+    <string name="exiferaser_description">
+        ExifEraser is a modern, permissionless image metadata erasing application for Android.
+    </string>
+    <string name="exiferaser_page" translatable="false">https://github.com/Tommy-Geenexus/exif-eraser#readme</string>
+
+    <string name="exiftool" translatable="false">ExifTool</string>
+    <string name="exiftool_description">
+        ExifTool is the original Perl library and command-line application for reading,
+        writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file
+        formats.
+    </string>
+    <string name="exiftool_page" translatable="false">https://exiftool.org/</string>
+
+    <string name="nextcloud" translatable="false">Nextcloud</string>
+    <string name="nextcloud_description">
+        Nextcloud is a suite of free and open-source client-server software for creating your own file hosting services
+        on a private server you control.
+    </string>
+    <string name="nextcloud_page" translatable="false">https://nextcloud.com/</string>
+
+    <string name="cryptpad" translatable="false">CryptPad</string>
+    <string name="cryptpad_description">
+        CryptPad is a private-by-design alternative to popular office tools.
+        All content on this web service is end-to-end encrypted and can be shared with other users easily.
+    </string>
+    <string name="cryptpad_page" translatable="false">https://cryptpad.fr/</string>
+
+    <string name="thunderbird" translatable="false">Thunderbird</string>
+    <string name="thunderbird_description">
+        Thunderbird is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix)
+        client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+    </string>
+    <string name="thunderbird_page" translatable="false">https://thunderbird.net/</string>
+
+    <string name="apple_mail" translatable="false">Apple Mail</string>
+    <string name="applemail_description">
+        Apple Mail is included in macOS and can be extended to have OpenPGP support with GPG Suite,
+        which adds the ability to send PGP-encrypted email.
+    </string>
+    <string name="applemail_page" translatable="false">https://support.apple.com/guide/mail/welcome/mac</string>
+
+    <string name="fairemail" translatable="false">FairEmail</string>
+    <string name="fairemail_description">
+        FairEmail is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP)
+        and minimizes data and battery usage.
+    </string>
+    <string name="fairemail_page" translatable="false">https://email.faircode.eu/</string>
+
+    <string name="evolution" translatable="false">Evolution</string>
+    <string name="evolution_description">
+        Evolution is a personal information management application that provides integrated mail,
+        calendaring and address book functionality.
+        Evolution has extensive documentation to help you get started.
+    </string>
+    <string name="evolution_page" translatable="false">https://wiki.gnome.org/Apps/Evolution</string>
+
+    <string name="kontact" translatable="false">Kontact</string>
+    <string name="kontact_description">
+        Kontact is a personal information manager (PIM) application from the KDE project.
+        It provides a mail client, address book, RSS client, and an organizer.
+    </string>
+    <string name="kontact_page" translatable="false">https://kontact.kde.org/</string>
+
+    <string name="mailvelope" translatable="false">Mailvelope</string>
+    <string name="mailvelope_description">
+        Mailvelope is a browser extension that enables the exchange of encrypted emails
+        following the OpenPGP encryption standard.
+    </string>
+    <string name="mailvelope_page" translatable="false">https://mailvelope.com/</string>
+
+    <string name="neomutt" translatable="false">NeoMutt</string>
+    <string name="neomutt_description">
+        NeoMutt is an open-source command line email reader for Linux and BSD.
+        It\'s a fork of Mutt with added features.
+    </string>
+    <string name="neomutt_page" translatable="false">https://neomutt.org/</string>
+
+    <string name="cryptomator" translatable="false">Cryptomator</string>
+    <string name="cryptomator_description">
+        Cryptomator is an encryption solution designed for privately saving files to any cloud  Service Provider,
+        eliminating the need to trust that they won\'t access your files.
+    </string>
+    <string name="cryptomator_page" translatable="false">https://cryptomator.org/</string>
+
+    <string name="picocrypt" translatable="false">Picocrypt</string>
+    <string name="picocrypt_description">
+        Picocrypt is a small and simple encryption tool that provides modern encryption.
+        Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function
+        to provide a high level of security. It uses Go\'s standard x/crypto modules for its encryption features.
+    </string>
+    <string name="picocrypt_page" translatable="false">https://github.com/Picocrypt/Picocrypt#readme</string>
+
+    <string name="veracrypt" translatable="false">VeraCrypt</string>
+    <string name="veracrypt_description">
+        VeraCrypt is a source-available freeware utility used for on-the-fly encryption.
+        It can create a virtual encrypted disk within a file, encrypt a partition,
+        or encrypt the entire storage device with pre-boot authentication.
+    </string>
+    <string name="veracrypt_page" translatable="false">https://veracrypt.fr/</string>
+
+    <string name="bitlocker" translatable="false">BitLocker</string>
+    <string name="bitlocker_description">
+        BitLocker is the full volume encryption solution bundled with Microsoft Windows
+        that uses the Trusted Platform Module (TPM) for hardware-based security.
+    </string>
+    <string name="bitlocker_page" translatable="false">https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview</string>
+
+    <string name="filevault" translatable="false">FileVault</string>
+    <string name="filevault_description">
+        FileVault is the on-the-fly volume encryption solution built into macOS.
+        FileVault takes advantage of the hardware security capabilities
+        present on an Apple Silicon SoC or T2 Security Chip.
+    </string>
+    <string name="filevault_page" translatable="false">https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac</string>
+
+    <string name="luks" translatable="false">LUKS</string>
+    <string name="luks_description">
+        LUKS is the default FDE method for Linux.
+        It can be used to encrypt full volumes, partitions, or create encrypted containers.
+    </string>
+    <string name="luks_page" translatable="false">https://gitlab.com/cryptsetup/cryptsetup#what-the-</string>
+
+    <string name="kryptor" translatable="false">Kryptor</string>
+    <string name="kryptor_description">
+        Kryptor is a free and open-source file encryption and signing
+        tool that makes use of modern and secure cryptographic algorithms.
+    </string>
+    <string name="kryptor_page" translatable="false">https://kryptor.co.uk/</string>
+
+    <string name="tomb" translatable="false">Tomb</string>
+    <string name="tomb_description">
+        Tomb is a command-line shell wrapper for LUKS.
+        It supports steganography via third-party tools.
+    </string>
+    <string name="tomb_page" translatable="false">https://dyne.org/software/tomb</string>
+
+    <string name="gnupg" translatable="false">GnuPG</string>
+    <string name="gnupg_description">
+        GnuPG is a GPL-licensed alternative to
+        the PGP suite of cryptographic software.
+    </string>
+    <string name="gnupg_page" translatable="false">https://gnupg.org/</string>
+
+    <string name="gpg4win" translatable="false">GPG4win</string>
+    <string name="gpg4win_description">
+        GPG4win is a package for Windows from Intevation and g10 Code.
+        It includes various tools that can assist you in using GPG on Microsoft Windows.
+    </string>
+    <string name="gpg4win_page" translatable="false">https://gpg4win.org/</string>
+
+    <string name="gpgsuite" translatable="false">GPG Suite</string>
+    <string name="gpgsuite_description">
+        GPG Suite provides OpenPGP support for Apple Mail
+        and other email clients on macOS.
+    </string>
+    <string name="gpgtools_page" translatable="false">https://gpgtools.org/</string>
+
+    <string name="openkeychain" translatable="false">OpenKeychain</string>
+    <string name="openkeychain_description">
+        OpenKeychain is an implementation of GnuPG for Android.
+        It\'s commonly required by mail clients such as Thunderbird,
+        FairEmail, and other Android apps to provide encryption support.
+    </string>
+    <string name="openkeychain_page" translatable="false">https://openkeychain.org/</string>
+
+    <string name="send" translatable="false">Send</string>
+    <string name="send_description">
+        Send is a fork of Mozilla\'s discontinued Firefox Send service which
+        allows you to send files to others with a link.
+        Files are encrypted on your device so that they cannot be read by the server,
+        and they can be optionally password-protected as well.
+    </string>
+    <string name="send_page" translatable="false">https://send.vis.ee/</string>
+
+    <string name="onionshare" translatable="false">OnionShare</string>
+    <string name="onionshare_description">
+        OnionShare is an open-source tool that lets you securely
+        and anonymously share a file of any size.
+    </string>
+    <string name="onionshare_page" translatable="false">https://onionshare.org/</string>
+
+    <string name="freedombox" translatable="false">FreedomBox</string>
+    <string name="freedombox_description">
+        FreedomBox is an operating system designed to be run on a single-board computer (SBC).
+        The purpose is to make it easy to set up server applications that you might want to self-host.
+    </string>
+    <string name="freedombox_page" translatable="false">https://freedombox.org/</string>
+
+    <string name="syncthing" translatable="false">Syncthing</string>
+    <string name="syncthing_description">
+        Syncthing is an open-source peer-to-peer continuous file synchronization utility.
+        It is used to synchronize files between two or more devices over the local network or the internet.
+        Syncthing does not use a centralized server; it uses the Block Exchange Protocol to transfer data between devices.
+        All data is encrypted using TLS.
+    </string>
+    <string name="syncthing_page" translatable="false">https://syncthing.net/</string>
+
+    <string name="redlib" translatable="false">Redlib</string>
+    <string name="redlib_description">
+        Redlib is an open-source frontend to the Reddit website that is also self-hostable.
+        You can access Redlib through a number of public instances.
+    </string>
+    <string name="redlib_page" translatable="false">https://github.com/redlib-org/redlib</string>
+
+    <string name="proxitok" translatable="false">ProxiTok</string>
+    <string name="proxitok_description">
+        ProxiTok is an open-source frontend
+        to the TikTok website that is also self-hostable.
+    </string>
+    <string name="proxitok_page" translatable="false">https://github.com/pablouser1/ProxiTok</string>
+
+    <string name="invidious" translatable="false">Invidious</string>
+    <string name="invidious_description">
+        Invidious is a free and open-source frontend for YouTube that is also self-hostable.
+    </string>
+    <string name="invidious_page" translatable="false">https://invidious.io/</string>
+
+    <string name="piped" translatable="false">Piped</string>
+    <string name="piped_description">
+        Piped is a free and open-source frontend for YouTube that is also self-hostable.
+    </string>
+    <string name="piped_page" translatable="false">https://github.com/TeamPiped/Piped</string>
+
+    <string name="freetube" translatable="false">FreeTube</string>
+    <string name="freetube_description">
+        FreeTube is a free and open-source desktop application for YouTube.
+        FreeTube extracts data from YouTube using its built-in API based on YouTube.js or the Invidious API.
+        You can configure either as the default, with the other serving as a fallback.
+    </string>
+    <string name="freetubeapp_page" translatable="false">https://freetubeapp.io/</string>
+
+    <string name="yattee" translatable="false">Yattee</string>
+    <string name="yattee_description">
+        Yattee is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for YouTube.
+    </string>
+    <string name="yattee_page" translatable="false">https://github.com/yattee/yattee</string>
+
+    <string name="libretube" translatable="false">LibreTube</string>
+    <string name="libretube_description">
+        LibreTube is a free and open-source Android application for YouTube which uses the Piped API.
+        Your subscription list and playlists are saved locally on your Android device.
+    </string>
+    <string name="libretube_page" translatable="false">https://libretube.dev/</string>
+
+    <string name="newpipe" translatable="false">NewPipe</string>
+    <string name="newpipe_description">
+        NewPipe is a free and open-source Android application for YouTube, SoundCloud, media.ccc.de,
+        Bandcamp, and PeerTube.
+    </string>
+    <string name="newpipe_page" translatable="false">https://newpipe.net/</string>
+
+    <string name="drip" translatable="false">Drip</string>
+    <string name="drip_description">
+        Drip is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms.
+    </string>
+    <string name="drip_page" translatable="false">https://bloodyhealth.gitlab.io/</string>
+
+    <string name="euki" translatable="false">Euki</string>
+    <string name="euki_description">
+        Euki is a nonprofit-backed menstrual cycle tracker,
+        All user data is stored locally on your device and can be protected with a password.
+    </string>
+    <string name="eukiapp_page" translatable="false">https://eukiapp.org/</string>
+
+    <string name="apple_health" translatable="false">Apple Health</string>
+    <string name="applehealth_description">
+        Apple Health is the default health and fitness app for iOS.
+        Apple Health always uses end-to-end encryption when syncing across multiple devices.
+        Additionally, almost all measured data is processed on your device.
+    </string>
+    <string name="applehealth_page" translatable="false">https://apple.com/health</string>
+
+    <string name="gadgetbridge" translatable="false">Gadgetbridge</string>
+    <string name="gadgetbridge_description">
+        Gadgetbridge is an open-source Android application which allows you to pair and manage
+    </string>
+    <string name="gadgetbridge_page" translatable="false">https://gadgetbridge.org/</string>
+
+    <string name="apple_health_records" translatable="false">Apple Health Records</string>
+    <string name="applehealth_records_description">
+        Apple Health Records is a built-in feature within Apple Health that allows you to view, store,
+        and share your health records. It shares the security and privacy features of Apple Health.
+    </string>
+    <string name="health_page" translatable="false">https://apple.com/health</string>
+
+    <string name="commonhealth" translatable="false">CommonHealth</string>
+    <string name="commonhealth_description">
+        CommonHealth is a privacy-respecting Android app that allows people to access their electronic health
+        records and securely share it to providers. All health data is stored on your device and can be protected
+        with a passcode or biometric authentication.
+    </string>
+    <string name="commonhealth_page" translatable="false">https://commonhealth.org/</string>
+
+    <string name="languagetool" translatable="false">LanguageTool</string>
+    <string name="languagetool_description">
+        LanguageTool is a multilingual grammar, style,
+        and spell checker that supports more than 20 languages.
+    </string>
+    <string name="languagetool_page" translatable="false">https://languagetool.org/</string>
+
+    <string name="organic_maps" translatable="false">Organic Maps</string>
+    <string name="organicmaps_description">
+        Organic Maps is an open-source, community-developed map display and satnav-style navigation app for walkers,
+        drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data,
+        and navigation with privacy — no location tracking, no data collection,
+        and no ads. The app can be used completely offline.
+    </string>
+    <string name="organicmaps_page" translatable="false">https://organicmaps.app/</string>
+
+    <string name="osmand" translatable="false">OsmAnd</string>
+    <string name="osmand_description">
+        OsmAnd is an offline map and navigation application based on OpenStreetMap that
+        offers turn-by-turn navigation for walking, cycling, driving, as well as public transport.
+        It is open source and does not collect any user data.
+    </string>
+    <string name="osmand_page" translatable="false">https://osmand.net/</string>
+
+    <string name="ente_auth" translatable="false">Ente Auth</string>
+    <string name="enteauth_description">
+        Ente Auth is a free and open-source app which stores and generates TOTP tokens.
+        It can be used with an online account to back up and sync your tokens across your devices
+        in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+    </string>
+    <string name="auth_page" translatable="false">https://ente.io/auth</string>
+
+    <string name="aegis" translatable="false">Aegis Authenticator</string>
+    <string name="aegis_description">
+        Aegis Authenticator is a free and open-source app for Android to manage your 2-step verification tokens
+        for your online services. Aegis Authenticator operates completely offline/locally,
+        but includes the option to export your tokens for backup unlike many alternatives.
+    </string>
+    <string name="aegis_page" translatable="false">https://getaegis.app/</string>
+
+    <string name="akregator" translatable="false">Akregator</string>
+    <string name="akregator_description">
+        Akregator is a news feed reader that is a part of the KDE project.
+        It comes with a fast search, advanced archiving functionality,
+        and an internal browser for easy news reading.
+    </string>
+    <string name="akregator_page" translatable="false">https://apps.kde.org/akregator</string>
+
+    <string name="newsflash" translatable="false">NewsFlash</string>
+    <string name="newsflash_description">
+        NewsFlash is an open-source, modern, and easy-to-use news feed reader for Linux.
+        It can be used offline or with services like Inoreader or Nextcloud News.
+        It has a search feature and a pre-defined list of sources that you can add directly.
+    </string>
+    <string name="newsflash_page" translatable="false">https://gitlab.com/news-flash/news_flash_gtk#newsflash</string>
+
+    <string name="feeder" translatable="false">Feeder</string>
+    <string name="feeder_description">
+        Feeder is a modern RSS client for Android that has many features
+        and works well with folders of RSS feeds.
+    </string>
+    <string name="feeder_page" translatable="false">https://github.com/spacecowboy/Feeder#readme</string>
+
+    <string name="miniflux" translatable="false">Miniflux</string>
+    <string name="miniflux_description">
+        Miniflux is a web-based news aggregator that you can self-host.
+    </string>
+    <string name="miniflux_page" translatable="false">https://miniflux.app/</string>
+
+    <string name="netnewswire" translatable="false">NetNewsWire</string>
+    <string name="netnewswire_description">
+        NetNewsWire is a free and open-source feed reader for macOS and iOS
+        with a focus on a native design and feature set.
+    </string>
+    <string name="netnewswire_page" translatable="false">https://netnewswire.com/</string>
+
+    <string name="newsboat" translatable="false">Newsboat</string>
+    <string name="newsboat_description">
+        Newsboat is an RSS/Atom feed reader for the text console.
+        It\'s an actively maintained fork of Newsbeuter.
+        It is very lightweight and ideal for use over Secure Shell.
+    </string>
+    <string name="newsboat_page" translatable="false">https://newsboat.org/</string>
+
+    <string name="standard_notes" translatable="false">Standard Notes</string>
+    <string name="standardnotes_description">
+        Standard Notes is a simple and private notes app that features cross-platform sync for seamless use.
+        It features E2EE on every platform, and a powerful desktop experience with themes and custom editors.
+    </string>
+    <string name="standardnotes_page" translatable="false">https://standardnotes.com/</string>
+
+    <string name="notesnook" translatable="false">Notesnook</string>
+    <string name="notesnook_description">
+        Notesnook is a free (as in speech), open-source,
+        and easy-to-use E2EE note-taking app focused on user privacy.
+    </string>
+    <string name="notesnook_page" translatable="false">https://notesnook.com/</string>
+
+    <string name="joplin" translatable="false">Joplin</string>
+    <string name="joplin_description">
+        Joplin is a free, open-source, and fully-featured E2EE note-taking and to-do application
+        which can handle numerous Markdown notes organized into notebooks and tags.
+    </string>
+    <string name="joplinapp_page" translatable="false">https://joplinapp.org/</string>
+
+    <string name="cryptee" translatable="false">Cryptee</string>
+    <string name="cryptee_description">
+        Cryptee is an open-source, web-based E2EE document editor
+        and photo storage application.
+    </string>
+    <string name="cryptee_page" translatable="false">https://crypt.ee/</string>
+
+    <string name="orgmode" translatable="false">Org-mode</string>
+    <string name="orgmode_description">
+        Org-mode is a major mode for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists,
+        planning projects, and authoring documents with a fast and effective plain-text system.
+        File synchronization is possible with tools like Syncthing.
+    </string>
+    <string name="orgmode_page" translatable="false">https://orgmode.org/</string>
+
+    <string name="libreoffice" translatable="false">LibreOffice</string>
+    <string name="libreoffice_description">
+        LibreOffice is a free and open-source office suite with extensive functionality.
+    </string>
+    <string name="libreoffice_page" translatable="false">https://libreoffice.org/</string>
+
+    <string name="onlyoffice" translatable="false">OnlyOffice</string>
+    <string name="onlyoffice_description">
+        OnlyOffice is a cloud-based free and open-source office suite
+        with extensive functionality, including integration with Nextcloud.
+    </string>
+    <string name="onlyoffice_page" translatable="false">https://onlyoffice.com/</string>
+
+    <string name="bitwarden" translatable="false">Bitwarden</string>
+    <string name="bitwarden_description">
+        Bitwarden is a free and open-source password and passkey manager.
+        It aims to solve password management problems for individuals, teams, and business organizations.
+        Bitwarden is among the best and safest solutions to store all of your logins and passwords
+        while conveniently keeping them synced between all of your devices.
+    </string>
+    <string name="bitwarden_page" translatable="false">https://bitwarden.com/</string>
+
+    <string name="protonpass" translatable="false">Proton Pass</string>
+    <string name="protonpass_description">
+        Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton,
+        the team behind Proton Mail. It securely stores your login credentials,
+        generates unique email aliases, and supports and stores passkeys.
+    </string>
+    <string name="protonpass_page" translatable="false">https://proton.me/pass</string>
+
+    <string name="_1password" translatable="false">1Password</string>
+    <string name="_1password_description">
+        1Password is a password manager with a strong focus on security and ease-of-use
+        that allows you to store passwords, passkeys, credit cards, software licenses,
+        and any other sensitive information in a secure digital vault.
+    </string>
+    <string name="_1password_page" translatable="false">https://1password.com/</string>
+
+    <string name="psono" translatable="false">Psono</string>
+    <string name="psono_description">
+        Psono is a free and open-source password manager from Germany,
+        with a focus on password management for teams.
+        Psono supports secure sharing of passwords, files, bookmarks, and emails.
+        All secrets are protected by a master password.
+    </string>
+    <string name="psono_page" translatable="false">https://psono.com/</string>
+
+    <string name="keepassxc" translatable="false">KeePassXC</string>
+    <string name="keepassxc_description">
+        KeePassXC is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe,
+        with the goal of extending and improving it with new features and bug fixes
+        to provide a feature-rich, cross-platform, and modern open-source password manager.
+    </string>
+    <string name="keepassxc_page" translatable="false">https://keepassxc.org/</string>
+
+    <string name="keepassdx" translatable="false">KeePassDX</string>
+    <string name="keepassdx_description">
+        KeePassDX is a lightweight password manager for Android;
+        it allows for editing encrypted data in a single file
+        in KeePass format and can fill in forms securely.
+    </string>
+    <string name="keepassdx_page" translatable="false">https://keepassdx.com/</string>
+
+    <string name="gopass" translatable="false">Gopass</string>
+    <string name="gopass_description">
+        Gopass is a minimal password manager for the command line written in Go.
+        It can be used within scripting applications and works
+        on all major desktop and server operating systems.
+    </string>
+    <string name="gopass_page" translatable="false">https://gopass.pw/</string>
+
+    <string name="privatebin" translatable="false">PrivateBin</string>
+    <string name="privatebin_description">
+        PrivateBin is a minimalist, open-source, online pastebin where
+        the server has zero knowledge of pasted data.
+        Data is encrypted/decrypted in the browser using 256-bit AES.
+        It is the improved version of ZeroBin.
+    </string>
+    <string name="privatebin_page" translatable="false">https://privatebin.info/</string>
+
+    <string name="paaster" translatable="false">Paaster</string>
+    <string name="paaster_description">
+        Paaster is a secure and user-friendly pastebin application
+        that prioritizes privacy and simplicity.
+        With end-to-end encryption and paste history,
+        Paaster ensures that your pasted code remains confidential and accessible.
+    </string>
+    <string name="paaster_page" translatable="false">https://paaster.io/</string>
+
+    <string name="signal" translatable="false">Signal</string>
+    <string name="signal_description">
+        Signal is a mobile app developed by Signal Messenger LLC.
+        The app provides instant messaging and calls secured with the Signal protocol,
+        an extremely secure encryption protocol which supports
+        forward secrecy1 and post-compromise security.
+    </string>
+    <string name="signal_page" translatable="false">https://signal.org/</string>
+
+    <string name="molly" translatable="false">Molly</string>
+    <string name="molly_description">
+        Molly is an alternative Signal client for Android which allows you to encrypt the local database
+        with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor,
+        and more.
+    </string>
+    <string name="molly_page" translatable="false">https://molly.im/</string>
+
+    <string name="simplexchat" translatable="false">SimpleX Chat</string>
+    <string name="simplexchat_description">
+        SimpleX Chat is an instant messenger that doesn\'t depend on any unique identifiers
+        such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against Censorship.
+    </string>
+    <string name="simplexchat_page" translatable="false">https://simplex.chat/</string>
+
+    <string name="briar" translatable="false">Briar</string>
+    <string name="briar_description">
+        Briar is an encrypted instant messenger that connects to other clients using the Tor network,
+        making it an effective tool at circumventing  Censorship.
+        Briar can also connect via Wi-Fi or Bluetooth when in local proximity.
+        Briar’s local mesh mode can be useful when internet availability is a problem.
+    </string>
+    <string name="briarproject_page" translatable="false">https://briarproject.org/</string>
+
+    <string name="mastodon" translatable="false">Mastodon</string>
+    <string name="mastodon_description">
+        Mastodon is a social network based on open web protocols and free, open-source software.
+        It uses the  ActivityPub protocol, which is decentralized like email:
+        Users can exist on different servers or even different platforms but still communicate with each other.
+    </string>
+    <string name="mastodon_page" translatable="false">https://joinmastodon.org/</string>
+
+    <string name="element" translatable="false">Element</string>
+    <string name="element_description">
+        Element is the flagship client for the  Matrix protocol, an open standard that
+        enables decentralized communication by way of federated chat rooms.
+        Users can exist on different homeservers but still communicate with each other.
+    </string>
+    <string name="element_page" translatable="false">https://element.io/</string>
+
+    <string name="tornetwork" translatable="false">Tor network</string>
+    <string name="tornetwork_description">
+        The Tor network is a group of volunteer-operated servers that allows you to connect for free
+        and improve your privacy and security on the Internet.
+        Individuals and organizations can also share information over the Tor network
+        with \\\".onion hidden services\\\" without compromising their privacy.
+        Because Tor traffic is difficult to block and trace, Tor is an effective Censorship circumvention tool.
+    </string>
+    <string name="tornetwork_page" translatable="false">https://tb-manual.torproject.org/</string>
+
+    <string name="orbot" translatable="false">Orbot</string>
+    <string name="orbot_description">
+        Orbot is a mobile application which routes traffic from
+        any app on your device through the Tor network.
+    </string>
+    <string name="orbot_page" translatable="false">https://orbot.app/</string>
+
+    <string name="snowflake" translatable="false">Snowflake</string>
+    <string name="snowflake_description">
+        Snowflake allows you to donate bandwidth to the Tor Project
+        by operating a \"Snowflake proxy\" within your browser.
+    </string>
+    <string name="snowflake_page" translatable="false">https://snowflake.torproject.org/</string>
+
+    <string name="i2p" translatable="false">I2P</string>
+    <string name="i2p_description">
+        I2P is a network layer which encrypts your connections and routes them via a network of computers
+        distributed around the world. It is mainly focused on creating an alternative,
+        privacy-protecting network rather than making regular internet connections anonymous.
+    </string>
+    <string name="i2p_page" translatable="false">https://geti2p.net/en</string>
+
+    <string name="mvt" translatable="false">MVT</string>
+    <string name="mvt_description">
+        Mobile Verification Toolkit (MVT) is a collection of utilities which simplifies and automates the process
+        of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns.
+        MVT was developed by Amnesty International and released in 2021 in the context of the Pegasus Project.
+    </string>
+    <string name="mvt_page" translatable="false">https://docs.mvt.re/en/latest/</string>
+
+    <string name="imazing" translatable="false">iMazing</string>
+    <string name="imazing_description">
+        iMazing provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for MVT.
+        This can be much easier to run compared to MVT itself, which is a command-line tool designed
+        for technologists and forensic investigators.
+    </string>
+    <string name="imazing_page" translatable="false">https://imazing.com/</string>
+
+    <string name="auditor" translatable="false">Auditor</string>
+    <string name="auditor_description">
+        Auditor is an app which leverages hardware security features to provide device integrity monitoring
+        by actively validating the identity of a device and the integrity of its operating system.
+        Currently, it only works with GrapheneOS or the stock operating system for supported devices.
+    </string>
+    <string name="attestation_page" translatable="false">https://attestation.app/</string>
+
+    <string name="googlepixel" translatable="false">Google Pixel</string>
+    <string name="googlepixel_description">
+        Google Pixel devices are known to have good security and properly support Verified Boot,
+        even when installing custom operating systems.
+        Beginning with the Pixel 8 and 8 Pro, Pixel devices receive a minimum of 7 years of guaranteed security updates,
+        ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+    </string>
+    <string name="googlephones_page" translatable="false">https://store.google.com/category/phones</string>
+
+    <string name="yubikey" translatable="false">YubiKey</string>
+    <string name="yubikey_description">
+        The YubiKey series from Yubico are among the most popular security keys with FIDO Level 2 Certification1.
+        The YubiKey 5 Series has a wide range of features such as Universal 2nd Factor (U2F), FIDO2 and WebAuthn,
+        Yubico OTP, Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
+    </string>
+    <string name="yubico_page" translatable="false">https://yubico.com/products/yubikey-5-overview</string>
+
+    <string name="nitrokey" translatable="false">Nitrokey</string>
+    <string name="nitrokey_description">
+        Nitrokey has a security key capable of FIDO2 and WebAuthn called the Nitrokey FIDO2.
+        For PGP support, you need to purchase one of their other keys such as the Nitrokey Start,
+        Nitrokey Pro 2, or the Nitrokey Storage 2.
+    </string>
+    <string name="nitrokey_page" translatable="false">https://nitrokey.com/</string>
+
+    <string name="stalwart" translatable="false">Stalwart</string>
+    <string name="stalwart_description">
+        Stalwart is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP.
+        It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security
+        and features, making it easy to use immediately.
+        It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt all incoming messages.
+    </string>
+    <string name="stalwart_page" translatable="false">https://stalw.art/</string>
+
+    <string name="mailcow" translatable="false">Mailcow</string>
+    <string name="mailcow_description">
+        Mailcow is an advanced mail server perfect for those with Linux experience.
+        It has everything you need in a Docker container: a mail server with DKIM support,
+        antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+    </string>
+    <string name="mailcow_page" translatable="false">https://mailcow.email/</string>
+
+    <string name="mailinabox" translatable="false">Mail-in-a-Box</string>
+    <string name="mailinabox_description">
+        Mail-in-a-Box is an automated setup script for deploying a mail server on Ubuntu.
+        Its goal is to make it easier for people to set up their own mail server.
+    </string>
+    <string name="mailinabox_page" translatable="false">https://mailinabox.email/</string>
+
+    <string name="protondrive" translatable="false">Proton Drive</string>
+    <string name="protondrive_description">
+        Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail.
+    </string>
+    <string name="protondrive_page" translatable="false">https://proton.me/drive</string>
+
+    <string name="tresorit" translatable="false">Tresorit</string>
+    <string name="tresorit_description">
+        Tresorit is a Swiss-Hungarian encrypted cloud storage provider founded in 2011.
+    </string>
+    <string name="tresorit_page" translatable="false">https://tresorit.com/</string>
+
+    <string name="peergos" translatable="false">Peergos</string>
+    <string name="peergos_description">
+        Peergos is a decentralized protocol and open-source platform for storage, social media, and applications.
+        It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc.
+        Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
+    </string>
+    <string name="peergos_page" translatable="false">https://peergos.org/</string>
+
+    <string name="easyoptouts" translatable="false">EasyOptOuts</string>
+    <string name="easyoptouts_description">
+        EasyOptOuts is a \\$20/year service which will search a number of different data broker sites and automatically
+        submit opt-out requests on your behalf. They will perform the first search and removal process immediately,
+        and then re-run the process every 4 months in case your data shows up on new sites over time.
+    </string>
+    <string name="easyoptouts_page" translatable="false">https://easyoptouts.com/</string>
+
+    <string name="results_about_you" translatable="false">Results about you</string>
+    <string name="results_about_you_description">
+        Results about you is a free tool which helps you discover whether your personal contact information,
+        including your home address, phone number, and email address, appears in Google search results.
+        If any personal information is found, you can request its removal.
+    </string>
+    <string name="results_about_you_page" translatable="false">https://myactivity.google.com/results-about-you</string>
+
+    <string name="controld" translatable="false">ControlD</string>
+    <string name="controld_description">
+        Supports advanced DNS encryption protocols,
+        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
+        and DNS over QUIC (DoQ).
+    </string>
+    <string name="controld_page" translatable="false">https://controld.com/free-dns</string>
+
+    <string name="cloudflare" translatable="false">Cloudflare</string>
+    <string name="cloudflare_description">
+        Supports advanced DNS encryption protocols,
+        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
+    </string>
+    <string name="cloudflare_page" translatable="false">https://developers.cloudflare.com/1.1.1.1/setup</string>
+
+    <string name="quad9" translatable="false">Quad9</string>
+    <string name="quad9_description">
+        Supports advanced DNS encryption protocols,
+        including DNS over HTTPS (DoH) and DNS over TLS (DoT) and DNSCrypt
+    </string>
+    <string name="quad9_page" translatable="false">https://quad9.net/</string>
+
+    <string name="mullvad" translatable="false">Mullvad</string>
+    <string name="mullvad_description">
+        Supports advanced DNS encryption protocols,
+        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
+    </string>
+    <string name="mullvad_page" translatable="false">https://mullvad.net/en/help/dns-over-https-and-dns-over-tls</string>
+
+    <string name="adguard_dns_description">
+        Supports advanced DNS encryption protocols, including DNS over HTTPS (DoH)
+        and DNS over TLS (DoT)and DNS over QUIC (DoQ) and DNSCrypt
+    </string>
+    <string name="adguard_dns_page" translatable="false">https://adguard-dns.io/en/public-dns.html</string>
+
+    <string name="dns0_eu" translatable="false">DNS0.eu</string>
+    <string name="dns0_eu_description">
+        Supports advanced DNS encryption protocols,
+        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
+        and DNS over QUIC (DoQ)
+    </string>
+    <string name="dns0_eu_page" translatable="false">https://dns0.eu/</string>
+
+    <string name="pi_hole" translatable="false">Pi-hole</string>
+    <string name="pihole_description">
+        Pi-hole is an open-source DNS-sinkhole which uses DNS filtering
+        to block unwanted web content, such as advertisements.
+    </string>
+    <string name="pihole_page" translatable="false">https://pi-hole.net/</string>
+
+    <string name="rethinkdns" translatable="false">RethinkDNS</string>
+    <string name="rethinkdns_description">
+        RethinkDNS is an open-source Android client that supports DoH, DoT, DNSCrypt and DNS Proxy.
+        It also provides additional functionality such as caching DNS responses,
+        locally logging DNS queries,
+        and using the app as a firewall.
+    </string>
+    <string name="rethinkdns_page" translatable="false">https://rethinkdns.com/</string>
+
+    <string name="dnscrypt_proxy" translatable="false">DNSCrypt-Proxy</string>
+    <string name="dnscrypt_proxy_description">
+        DNSCrypt-Proxy is a DNS proxy with support for DNSCrypt, DoH, and Anonymized DNS.
+    </string>
+    <string name="dnscrypt_proxy_page" translatable="false">https://github.com/DNSCrypt/dnscrypt-proxy#readme</string>
+
+    <string name="nextdns" translatable="false">NextDNS</string>
+    <string name="nextdns_description">
+        NextDNS is a customizable DNS service which lets you block security threats, unwanted content,
+        and advertisements on a DNS level. They offer a fully functional free plan for limited use.
+    </string>
+    <string name="nextdns_page" translatable="false">https://nextdns.io/</string>
+
+    <string name="addy_io" translatable="false">Addy.io</string>
+    <string name="addy_io_description">
+        Addy.io lets you create 10 domain aliases on a shared domain for free,
+        or unlimited \"standard\" aliases.
+    </string>
+    <string name="addy_io_page" translatable="false">https://addy.io/</string>
+
+    <string name="simplelogin" translatable="false">SimpleLogin</string>
+    <string name="simplelogin_description">
+        SimpleLogin is a free service which provides email aliases on a variety of shared domain names,
+        and optionally provides paid features like unlimited aliases and custom domains.
+    </string>
+    <string name="simplelogin_page" translatable="false">https://simplelogin.io/</string>
+
+    <string name="protonmail" translatable="false">Proton Mail</string>
+    <string name="protonmail_description">
+        Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use.
+    </string>
+    <string name="protonmail_page" translatable="false">https://proton.me/mail</string>
+
+    <string name="mailbox_org" translatable="false">Mailbox.org</string>
+    <string name="mailbox_org_description">
+        Mailbox.org is an email service with a focus on being secure,
+        ad-free, and powered by 100% eco-friendly energy.
+    </string>
+    <string name="mailbox_org_page" translatable="false">https://mailbox.org/</string>
+
+    <string name="tuta_email_description">
+        Tuta (formerly Tutanota) is an email service with a focus
+        on security and privacy through the use of encryption.
+    </string>
+    <string name="privacy_com" translatable="false">Privacy.com</string>
+
+    <string name="privacy_com_description">
+        Privacy.com\'s free plan allows you to create up to 12 virtual cards per month,
+        set spend limits on those cards,
+        and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
+    </string>
+    <string name="privacy_com_page" translatable="false">https://privacy.com/</string>
+
+    <string name="mysudo" translatable="false">MySudo</string>
+    <string name="mysudo_description">
+        MySudo provides up to 9 virtual cards depending on the plan you purchase.
+        Their paid plans additionally include functionality which may be useful
+        for making purchases privately, such as virtual phone numbers and email addresses.
+    </string>
+    <string name="mysudo_page" translatable="false">https://mysudo.com/</string>
+
+    <string name="coincards" translatable="false">Coincards</string>
+    <string name="coincards_description">
+        Coincards allows you to purchase gift cards for a large variety of merchants.
+        Their homepage has a complete listing of the various countries where their service is available.
+    </string>
+    <string name="coincards_page" translatable="false">https://coincards.com/</string>
+
+    <string name="ente_photos" translatable="false">Ente Photos</string>
+    <string name="ente_photos_description">
+        Ente Photos is an end-to-end encrypted photo backup service
+        which supports automatic backups on iOS and Android.
+        Their code is fully open source, both on the client side and on the server side.
+    </string>
+    <string name="ente_page" translatable="false">https://ente.io/</string>
+
+    <string name="stingle" translatable="false">Stingle</string>
+    <string name="stingle_description">
+        Stingle is a gallery and camera application with built-in,
+        E2EE backup and sync functionality for your photos and videos.
+    </string>
+    <string name="stingle_page" translatable="false">https://stingle.org/</string>
+
+    <string name="photoprism" translatable="false">PhotoPrism</string>
+    <string name="photoprism_description">
+        PhotoPrism is a self-hostable platform for managing photos.
+        It supports album syncing and sharing as well as a variety of other features.
+        It does not include E2EE, so it\'s best hosted on a server that you trust and is under your control.
+    </string>
+    <string name="photoprism_page" translatable="false">https://photoprism.app/</string>
+
+    <string name="brave_search" translatable="false">Brave Search</string>
+    <string name="brave_search_description">
+        Brave Search is a search engine developed by Brave.
+        The index is optimized against Google Search
+        and therefore may provide more contextually accurate results compared to other alternatives.
+    </string>
+    <string name="brave_search_page" translatable="false">https://search.brave.com/</string>
+
+    <string name="duckduckgo" translatable="false">DuckDuckGo</string>
+    <string name="duckduckgo_description">
+        DuckDuckGo is one of the more mainstream private search engine options.
+        Notable DuckDuckGo search features include bangs and a variety of instant answers.
+        The search engine uses numerous sources other than Bing for instant answers and other non-primary results.
+    </string>
+    <string name="duckduckgo_page" translatable="false">https://duckduckgo.com/</string>
+
+    <string name="startpage" translatable="false">Startpage</string>
+    <string name="startpage_description">
+        Startpage is a private search engine.
+        One of Startpage\'s unique features is the Anonymous View,
+        which puts forth efforts to standardize user activity
+        to make it more difficult to be uniquely identified.
+    </string>
+    <string name="startpage_page" translatable="false">https://startpage.com/</string>
+
+    <string name="searxng" translatable="false">SearXNG</string>
+    <string name="searxng_description">
+        SearXNG is an open-source, self-hostable, metasearch engine.
+        It is an actively maintained fork of SearX.
+    </string>
+    <string name="searxng_page" translatable="false">https://searxng.org/</string>
+
+    <string name="protonvpn" translatable="false">Proton VPN</string>
+    <string name="protonvpn_description">
+        Proton VPN is a strong contender in the VPN space, and they have been in operation since 2016.
+        Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+    </string>
+    <string name="protonvpn_page" translatable="false">https://protonvpn.com/</string>
+
+    <string name="ivpn" translatable="false">IVPN</string>
+    <string name="ivpn_description">
+        IVPN is another premium VPN provider, and they have been in operation since 2009.
+        IVPN is based in Gibraltar and does not offer a free trial.
+    </string>
+    <string name="ivpn_page" translatable="false">https://ivpn.net/</string>
+
+    <string name="mullvadvpn_description">
+        Mullvad is a fast and inexpensive VPN with a serious focus on transparency and security.
+        They have been in operation since 2009.
+    </string>
+    <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
+
+    <string name="no_categories_to_display" translatable="false">No categories to display.</string>
+    <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
+    <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>
+    <string name="error_sub_category_not_found" translatable="false">Error: Sub-category name not found.</string>
+
+</resources>
