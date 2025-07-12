@@ -4,7 +4,7 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ---
 ## ✨ Features
-- **🔒 Privacy First:** No ads, no tracking, and no permissions.
+- **🔒 Privacy First:** No ads, no tracking, no permissions requested.
 - **🎨 Dynamic Theming:** Automatically adapts to your wallpaper and system theme on Android 12 and newer.
 - **🌍 Full RTL Support:** Perfect usability for right-to-left languages like Arabic.
 - **🚀 Modern UI:** A clean and responsive user interface built entirely with Jetpack Compose.
