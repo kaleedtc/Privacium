@@ -15,6 +15,20 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ---
 
+## 📥 Installation
+You will be able to download the app from the following sources:
+- **[GitHub Releases](https://github.com/your-username/your-repo/releases)** (Recommended)
+- **F-Droid** (Coming Soon)
+
+---
+
+## Screenshots
+| <img src="./assets/screenshots/privacium_light_mode.png" alt="light Theme" /> | <img src="./assets/screenshots/privacium_dark_mode.png" alt="Dark Theme" /> | <img src="./assets/screenshots/privacium_light_1.png" alt="Material Design" /> |
+| ------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| <img src="./assets/screenshots/privacium_dark_2.png" alt="App Page" />   | <img src="./assets/screenshots/privacium_light_2.png" alt="App Page" />  | <img src="./assets/screenshots/privacium_dark_1.png" alt="App Page" />  |
+
+---
+
 ## 🛠️ Built With
 - [Kotlin](https://kotlinlang.org/): First-party and official programming language for Android development.
 - [Jetpack Compose](https://developer.android.com/jetpack/compose): Android’s modern toolkit for building native UI.
@@ -22,18 +36,10 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ---
 
-## 📥 Installation
-You will be able to download the app from the following sources:
-- **[GitHub Releases](https://github.com/your-username/your-repo/releases)** (Recommended)
-- **F-Droid** (Coming Soon)
-
-## Screenshots
-| <img src="./assets/screenshots/privacium_light_mode.png" alt="light Theme" /> | <img src="./assets/screenshots/privacium_dark_mode.png" alt="Dark Theme" /> | <img src="./assets/screenshots/privacium_light_1.png" alt="Material Design" /> |
-| ------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| <img src="./assets/screenshots/privacium_dark_2.png" alt="App Page" />   | <img src="./assets/screenshots/privacium_light_2.png" alt="App Page" />  | <img src="./assets/screenshots/privacium_dark_1.png" alt="App Page" />  |
-
 > [!IMPORTANT]  
 > We strongly encourage you to review the full details, criteria, and discussions for each recommendation on the official [**Privacy Guides website**](https://www.privacyguides.org) before making any decisions.
+
+---
 
 ## 📜 License
 This project is distributed under the MIT License. See [LICENSE](https://github.com/kaleedtc/Privacium/blob/main/LICENSE) for more information.
