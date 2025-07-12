@@ -1,3 +1,5 @@
+<img src="./app/src/main/res/mipmap-hdpi/ic_launcher.png" alt="Privacium" />
+
 # Privacium
 An open-source android app built to guide you through the world of digital privacy. Discover privacy-respecting software and services, all based on the standard criteria of [privacyguides.org](https://www.privacyguides.org).
 This app is built with modern Android technologies, including Kotlin and Jetpack Compose, to provide a clean experience.
