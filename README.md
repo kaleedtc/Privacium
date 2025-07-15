@@ -16,8 +16,11 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 ---
 
 ## 📥 Installation
-You will be able to download the app from the following sources:
-- **[GitHub Releases](https://github.com/kaleedtc/Privacium/releases)** (Recommended)
+Privacium is available to download from the official [github releases page](https://github.com/kaleedtc/Privacium/releases), but you can also keep track of updates with [Obtainium](https://github.com/ImranR98/Obtainium#-obtainium).
+
+<a href="https://github.com/kaleedtc/Privacium/releases"><img src="./assets/graphics/badge_github.png" alt="Get it on GitHub" height="150"></a>
+<a href="https://obtainium.imranr.dev/add?url=https://github.com/kaleedtc/Privacium"><img src="./assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="150"></a>
+
 - **F-Droid** (Coming Soon)
 
 ---
