@@ -20,9 +20,19 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
+
     buildTypes {
         release {
+            isDebuggable = false
+            // Enables code-related app optimization.
             isMinifyEnabled = true
+            // Enables resource shrinking.
             isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -30,11 +40,6 @@ android {
             )
             signingConfig = signingConfigs.getByName("debug")
         }
-    }
-
-    dependenciesInfo {
-        includeInApk = false
-        includeInBundle = false
     }
 
     compileOptions {
