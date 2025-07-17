@@ -12,7 +12,7 @@
     <string name="search_for_tools">Search for tools…</string>
     <string name="no_tools_found_for">No tools found for \"%1$s\".</string>
     <string name="back_button" translatable="false">Back</string>
-    <string name="back_button_content_description">Navigate back to the previous screen</string>
+    <string name="back_button_content_description" translatable="false">Navigate back to the previous screen</string>
     <string name="homepage">Homepage</string>
     <string name="settings_title">Settings</string>
     <string name="theme_setting_title">Theme</string>

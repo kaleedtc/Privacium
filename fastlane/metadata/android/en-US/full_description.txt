@@ -1,0 +1,9 @@
+An open-source app built to guide you through the world of digital privacy.
+Discover privacy-respecting software and services, all based on the standard criteria of <a href="https://privacyguides.org/">Privacyguides</a>.
+
+Features:
+
+* No ads, no tracking, no permissions requested.
+* Full RTL Support.
+* Clean and Modern UI.
+* Dynamic Theming support.
