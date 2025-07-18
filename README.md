@@ -20,8 +20,7 @@ Privacium is available to download from the official [github releases page](http
 
 <a href="https://github.com/kaleedtc/Privacium/releases"><img src="./assets/graphics/badge_github.png" alt="Get it on GitHub" height="150"></a>
 <a href="https://obtainium.imranr.dev/add?url=https://github.com/kaleedtc/Privacium"><img src="./assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="150"></a>
-
-- **F-Droid** (Coming Soon)
+<a href="https://apt.izzysoft.de/fdroid/index/apk/com.kaleedtc.privacium"><img src="./assets/graphics/badge_izzyondroid.png" alt="Get it on IzzyOnDroid" height="150"></a>
 
 ---
 
