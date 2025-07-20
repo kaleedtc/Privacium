@@ -29,6 +29,11 @@
     <string name="open_in_new_button" translatable="false">Open in new</string>
     <string name="developer_label">developer</string>
 
+    <string name="no_categories_to_display" translatable="false">No categories to display.</string>
+    <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
+    <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>
+    <string name="error_sub_category_not_found" translatable="false">Error: Sub-category name not found.</string>
+
     <string name="internet_browsing">Internet Browsing</string>
     <string name="desktop_browsers">Desktop Browsers</string>
     <string name="mobile_browsers">Mobile Browsers</string>
@@ -159,7 +164,7 @@
     <string name="fedora" translatable="false">Fedora</string>
     <string name="fedora_description">
         Fedora Linux is our recommended desktop distribution for people new to Linux.
-        Fedora generally adopts newer technologies (e.g., Wayland and PipeWire) before other distributions.
+        Fedora generally adopts newer technologies before other distributions.
         These new technologies often come with improvements in security, privacy, and usability in general.
     </string>
     <string name="fedoraproject_page" translatable="false">https://fedoraproject.org/</string>
@@ -203,8 +208,7 @@
     <string name="tails_description">
         Tails is a live operating system based on Debian that routes all communications through Tor,
         which can boot on almost any computer from a DVD, USB stick, or SD card installation.
-        It uses Tor to preserve privacy and Anonymity while circumventing censorship,
-        and it leaves no trace of itself on the computer it is used on after it is powered off.
+        It leaves no trace of itself on the computer it is used on after it is powered off.
     </string>
     <string name="tails_page" translatable="false">https://tails.net/</string>
 
@@ -254,8 +258,7 @@
     <string name="secure_camera" translatable="false">Secure Camera</string>
     <string name="secure_camera_description">
         Secure Camera is a camera app focused on privacy and security which can capture images,
-        videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight,
-        Face Retouch, and Auto) are also supported on available devices.
+        videos, and QR codes. CameraX vendor extensions are also supported on available devices.
     </string>
     <string name="camera_page" translatable="false">https://github.com/GrapheneOS/Camera#readme</string>
 
@@ -272,7 +275,6 @@
         Obtainium is an app manager which allows you to install and update apps directly from the developer\'s
         own releases page (i.e. GitHub, GitLab, the developer\'s website, etc.),
         rather than a centralized app store/repository.
-        It supports automatic background updates on Android 12 and higher.
     </string>
     <string name="obtainium_page" translatable="false">https://github.com/ImranR98/Obtainium#readme</string>
 
@@ -322,7 +324,6 @@
     <string name="llamafile_description">
         Llamafile is a lightweight, single-file executable that allows users to run LLMs locally
         on their own computers without any setup involved.
-        It is backed by Mozilla and available on Linux, macOS, and Windows.
     </string>
     <string name="llamafile_page" translatable="false">https://github.com/Mozilla-Ocho/llamafile#readme</string>
 
@@ -383,7 +384,7 @@
     <string name="exiftool" translatable="false">ExifTool</string>
     <string name="exiftool_description">
         ExifTool is the original Perl library and command-line application for reading,
-        writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file
+        writing, and editing meta information in a wide variety of file
         formats.
     </string>
     <string name="exiftool_page" translatable="false">https://exiftool.org/</string>
@@ -427,7 +428,6 @@
     <string name="evolution_description">
         Evolution is a personal information management application that provides integrated mail,
         calendaring and address book functionality.
-        Evolution has extensive documentation to help you get started.
     </string>
     <string name="evolution_page" translatable="false">https://wiki.gnome.org/Apps/Evolution</string>
 
@@ -828,8 +828,7 @@
 
     <string name="psono" translatable="false">Psono</string>
     <string name="psono_description">
-        Psono is a free and open-source password manager from Germany,
-        with a focus on password management for teams.
+        Psono is a free and open-source password manager with a focus on password management for teams.
         Psono supports secure sharing of passwords, files, bookmarks, and emails.
         All secrets are protected by a master password.
     </string>
@@ -879,8 +878,7 @@
 
     <string name="signal" translatable="false">Signal</string>
     <string name="signal_description">
-        Signal is a mobile app developed by Signal Messenger LLC.
-        The app provides instant messaging and calls secured with the Signal protocol,
+        Signal provides instant messaging and calls secured with the Signal protocol,
         an extremely secure encryption protocol which supports
         forward secrecy1 and post-compromise security.
     </string>
@@ -932,7 +930,6 @@
         and improve your privacy and security on the Internet.
         Individuals and organizations can also share information over the Tor network
         with \\\".onion hidden services\\\" without compromising their privacy.
-        Because Tor traffic is difficult to block and trace, Tor is an effective Censorship circumvention tool.
     </string>
     <string name="tornetwork_page" translatable="false">https://tb-manual.torproject.org/</string>
 
@@ -962,7 +959,6 @@
     <string name="mvt_description">
         Mobile Verification Toolkit (MVT) is a collection of utilities which simplifies and automates the process
         of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns.
-        MVT was developed by Amnesty International and released in 2021 in the context of the Pegasus Project.
     </string>
     <string name="mvt_page" translatable="false">https://docs.mvt.re/en/latest/</string>
 
@@ -1012,7 +1008,6 @@
         Stalwart is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP.
         It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security
         and features, making it easy to use immediately.
-        It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt all incoming messages.
     </string>
     <string name="stalwart_page" translatable="false">https://stalw.art/</string>
 
@@ -1121,8 +1116,7 @@
     <string name="rethinkdns_description">
         RethinkDNS is an open-source Android client that supports DoH, DoT, DNSCrypt and DNS Proxy.
         It also provides additional functionality such as caching DNS responses,
-        locally logging DNS queries,
-        and using the app as a firewall.
+        locally logging DNS queries, and using the app as a firewall.
     </string>
     <string name="rethinkdns_page" translatable="false">https://rethinkdns.com/</string>
 
@@ -1174,8 +1168,8 @@
 
     <string name="privacy_com_description">
         Privacy.com\'s free plan allows you to create up to 12 virtual cards per month,
-        set spend limits on those cards,
-        and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
+        set spend limits on those cards, and shut off cards instantly.
+        Their paid plans provide higher limits on the number of cards that can be created each month.
     </string>
     <string name="privacy_com_page" translatable="false">https://privacy.com/</string>
 
@@ -1268,10 +1262,5 @@
         They have been in operation since 2009.
     </string>
     <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
-
-    <string name="no_categories_to_display" translatable="false">No categories to display.</string>
-    <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
-    <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>
-    <string name="error_sub_category_not_found" translatable="false">Error: Sub-category name not found.</string>
 
 </resources>
