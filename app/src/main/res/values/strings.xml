@@ -1196,13 +1196,6 @@
     </string>
     <string name="ente_page" translatable="false">https://ente.io/</string>
 
-    <string name="stingle" translatable="false">Stingle</string>
-    <string name="stingle_description">
-        Stingle is a gallery and camera application with built-in,
-        E2EE backup and sync functionality for your photos and videos.
-    </string>
-    <string name="stingle_page" translatable="false">https://stingle.org/</string>
-
     <string name="photoprism" translatable="false">PhotoPrism</string>
     <string name="photoprism_description">
         PhotoPrism is a self-hostable platform for managing photos.

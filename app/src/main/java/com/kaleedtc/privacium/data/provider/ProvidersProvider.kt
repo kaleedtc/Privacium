@@ -182,12 +182,6 @@ fun getPhotoManagementTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.ente_page)
         ),
         Tool(
-            title = context.getString(R.string.stingle),
-            description = context.getString(R.string.stingle_description),
-            icon = R.drawable.stingle,
-            homepage = context.getString(R.string.stingle_page)
-        ),
-        Tool(
             title = context.getString(R.string.photoprism),
             description = context.getString(R.string.photoprism_description),
             icon = R.drawable.photoprism,
