@@ -7,11 +7,9 @@
   <img src="https://img.shields.io/badge/kotlin-2.2.0-blue.svg?logo=kotlin" style="max-width: 100%;"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"/>
   <a href="https://github.com/kaleedtc/Privacium/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
-  </a>
+  <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
-    <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
-  </a>
+  <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
 </p>
 
 ---
