@@ -4,9 +4,8 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android"/>
   <img src="https://img.shields.io/badge/API-30%2B-brightgreen.svg?style=flat" alt="API"/>
-  <img src="https://img.shields.io/badge/kotlin-2.2.0-blue.svg?logo=kotlin" style="max-width: 100%;"/>
+  <img src="https://img.shields.io/badge/kotlin-2.2.0-7F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"/>
-  <a href="https://github.com/kaleedtc/Privacium/blob/main/LICENSE">
   <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
   <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
