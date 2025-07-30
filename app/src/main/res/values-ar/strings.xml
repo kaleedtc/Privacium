@@ -20,6 +20,7 @@
     <string name="bottom_nav_search">بحث</string>
     <string name="search_for_tools">ابحث…</string>
     <string name="no_tools_found_for">لم تتطابق النتائج مع \"%1$s\".</string>
+    <string name="choose_startup_category">التبويب الافتراضي</string>
 
     <string name="internet_browsing">متصفحات الويب</string>
     <string name="desktop_browsers">متصفحات الحاسوب</string>

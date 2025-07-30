@@ -10,3 +10,4 @@ val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "se
 
 val THEME_KEY = stringPreferencesKey("theme_option")
 val LANGUAGE_KEY = stringPreferencesKey("app_language")
+val STARTUP_CATEGORY_KEY = stringPreferencesKey("startup_category")

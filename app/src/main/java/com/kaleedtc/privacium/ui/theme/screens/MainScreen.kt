@@ -32,14 +32,17 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.kaleedtc.privacium.R
 import com.kaleedtc.privacium.data.BottomNavItem
+import com.kaleedtc.privacium.data.STARTUP_CATEGORY_KEY
 import com.kaleedtc.privacium.ui.theme.screens.home.HomeMainContent
 import com.kaleedtc.privacium.ui.theme.screens.home.ToolsForSubCategoryScreen
 import com.kaleedtc.privacium.ui.theme.screens.search.SearchScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.AboutScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.LanguageSelectionScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.SettingsScreen
+import com.kaleedtc.privacium.ui.theme.screens.settings.StartupCategorySelectionScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.ThemeSelectionScreen
 import com.kaleedtc.privacium.utils.getCategories
+import kotlinx.coroutines.flow.map
 
 @Composable
 fun MainScreen(
@@ -49,13 +52,16 @@ fun MainScreen(
     val context = LocalContext.current
     val categories = remember { getCategories(context) }
 
-    // Initially select the first category.
-    var selectedCategory by remember {
-        mutableStateOf(categories.find {
-            it.name == context.getString(
-                R.string.software
-            )
-        } ?: categories.first())
+    var selectedCategory by remember { mutableStateOf(categories.first()) }
+
+    LaunchedEffect(Unit) {
+        dataStore.data.map { preferences ->
+            preferences[STARTUP_CATEGORY_KEY]
+        }.collect { startupCategoryName ->
+            selectedCategory = categories.find { it.name == startupCategoryName }
+                ?: categories.find { it.name == context.getString(R.string.software) }
+                        ?: categories.first()
+        }
     }
 
     // To Ensure orderedCategories and lazyListState are defined if used in HomeMainContent
@@ -91,12 +97,6 @@ fun MainScreen(
                         label = { Text(text = stringResource(id = item.label)) },
                         selected = item.route == currentBackStackEntry?.destination?.route,
                         onClick = {
-                            if (item.route == BottomNavItem.Home.route) {
-                                categories.find { it.name == context.getString(R.string.software) }
-                                    ?.let { category ->
-                                        selectedCategory = category
-                                    }
-                            }
                             if (item.route != currentBackStackEntry?.destination?.route) {
                                 navController.navigate(item.route) {
                                     popUpTo(BottomNavItem.Home.route) {
@@ -157,6 +157,7 @@ fun MainScreen(
                 SettingsScreen(
                     onShowThemeSelection = { navController.navigate("theme_selection") },
                     onShowLanguageSelection = { navController.navigate("language_selection") },
+                    onShowStartupCategorySelection = { navController.navigate("startup_category_selection") },
                     onShowAbout = { navController.navigate("about_screen") },
                     onBack = {
                         navController.navigate(BottomNavItem.Home.route) {
@@ -177,6 +178,11 @@ fun MainScreen(
             }
             composable("about_screen") {
                 AboutScreen {
+                    navController.popBackStack()
+                }
+            }
+            composable("startup_category_selection") {
+                StartupCategorySelectionScreen(dataStore = dataStore) {
                     navController.popBackStack()
                 }
             }

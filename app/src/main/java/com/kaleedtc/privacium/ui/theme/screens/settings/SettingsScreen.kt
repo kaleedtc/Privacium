@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Palette
@@ -35,6 +36,7 @@ fun SettingsScreen(
     onShowThemeSelection: () -> Unit,
     onShowLanguageSelection: () -> Unit,
     onShowAbout: () -> Unit,
+    onShowStartupCategorySelection: () -> Unit,
     onBack: () -> Unit,
 ) {
     val settingCategories = listOf(
@@ -47,6 +49,11 @@ fun SettingsScreen(
             title = stringResource(R.string.language_setting_title),
             icon = Icons.Filled.Language,
             onClick = onShowLanguageSelection
+        ),
+        SettingItem(
+            title = stringResource(R.string.choose_startup_category),
+            icon = Icons.Filled.Home,
+            onClick = onShowStartupCategorySelection
         ),
         SettingItem(
             title = stringResource(R.string.about_setting_title),
