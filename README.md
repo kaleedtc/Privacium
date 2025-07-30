@@ -1,6 +1,17 @@
 <img src="./app/src/main/res/mipmap-hdpi/ic_launcher.png" alt="Privacium" />
 
 # Privacium
+<p align="left">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/API-30%2B-brightgreen.svg?style=flat" alt="API"/>
+  <img src="https://img.shields.io/badge/Kotlin-2.2.0-7F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
+  <a href="https://github.com/kaleedtc/Privacium/releases/latest">
+  <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
+</p>
+
+---
 An open-source app built to guide you through the world of digital privacy. Discover privacy-respecting software and services, all based on the standard criteria of [privacyguides.org](https://www.privacyguides.org).
 This app is built with modern Android technologies, including Kotlin and Jetpack Compose, to provide a clean experience.
 
