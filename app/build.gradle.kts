@@ -17,7 +17,6 @@ android {
         versionCode = 5
         versionName = "1.3.2"
 
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -68,7 +67,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.material3)
     implementation(libs.androidx.material.icons.extended)
-    
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.navigation.compose.android)
     implementation(libs.litert.metadata)
