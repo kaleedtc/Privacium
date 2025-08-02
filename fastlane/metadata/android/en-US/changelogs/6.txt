@@ -1,0 +1,4 @@
+- Filter Your Searches! You can now filter your search results by category.
+- Improved the search screen for a more streamlined experience.
+- Revise and improved the descriptions for several tools.
+
