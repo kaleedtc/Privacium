@@ -29,6 +29,8 @@
     <string name="open_in_new_button" translatable="false">Open in new</string>
     <string name="developer_label">developer</string>
     <string name="choose_startup_category">Choose startup category</string>
+    <string name="search_in">Search in %1$s</string>
+    <string name="all">All</string>
 
     <string name="no_categories_to_display" translatable="false">No categories to display.</string>
     <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>

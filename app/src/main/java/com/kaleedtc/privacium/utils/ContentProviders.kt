@@ -197,3 +197,9 @@ fun getToolsForSubCategory(context: Context, subCategoryName: String): List<Tool
 fun getAllTools(context: Context): List<Tool> {
     return ToolRegistry.getAllTools(context)
 }
+
+fun getToolsForCategory(context: Context, category: CategoryTool): List<Tool> {
+    return category.subCategories.flatMap { subCategoryName ->
+        getToolsForSubCategory(context, subCategoryName)
+    }.distinct()
+}
