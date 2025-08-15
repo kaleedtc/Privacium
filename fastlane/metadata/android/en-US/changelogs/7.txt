@@ -1,0 +1,4 @@
+- Display a checkmark icon on the selected category button to provide users with clear visual feedback.
+- Updated Compose BOM: Upgraded to 2025.08.00.
+- Updated Core KTX: Upgraded to 1.17.0.
+
