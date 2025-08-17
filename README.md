@@ -4,7 +4,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android"/>
   <img src="https://img.shields.io/badge/API-30%2B-brightgreen.svg?style=flat" alt="API"/>
-  <img src="https://img.shields.io/badge/Kotlin-2.2.0-7F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"/>
   <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
