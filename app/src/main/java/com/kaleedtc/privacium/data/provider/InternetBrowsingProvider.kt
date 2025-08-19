@@ -24,6 +24,12 @@ fun getDesktopBrowsersTools(context: Context): List<Tool> {
             description = context.getString(R.string.mullvad_browser_description),
             icon = R.drawable.mullvad_browser,
             homepage = context.getString(R.string.mullvad_browser_page)
+        ),
+        Tool(
+            title = context.getString(R.string.librewolf),
+            description = context.getString(R.string.librewolf_description),
+            icon = R.drawable.librewolf,
+            homepage = context.getString(R.string.librewolf_page)
         )
     )
 }
