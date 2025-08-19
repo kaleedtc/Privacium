@@ -1266,4 +1266,10 @@
     </string>
     <string name="privacy_badger_page" translatable="false">https://privacybadger.org/</string>
 
+    <string name="snowflake_extension_description">
+        Snowflake allows you to connect to the Tor network in places where Tor is blocked by routing your 
+        connection through volunteer proxies located in uncensored countries.
+    </string>
+    <string name="snowflake_extension_page" translatable="false">https://snowflake.torproject.org/</string>
+
 </resources>

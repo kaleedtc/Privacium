@@ -76,6 +76,12 @@ fun getBrowserExtensionsTools(context: Context): List<Tool> {
             description = context.getString(R.string.privacy_badger_description),
             icon = R.drawable.eff,
             homepage = context.getString(R.string.privacy_badger_page)
+        ),
+        Tool(
+            title = context.getString(R.string.snowflake),
+            description = context.getString(R.string.snowflake_extension_description),
+            icon = R.drawable.snowflake,
+            homepage = context.getString(R.string.snowflake_extension_page)
         )
     )
 }
