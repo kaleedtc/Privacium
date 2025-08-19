@@ -1259,4 +1259,11 @@
     </string>
     <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
 
+    <string name="privacy_badger" translatable="false">Privacy Badger</string>
+    <string name="privacy_badger_description">
+        Privacy Badger is a free browser extension made by the leading digital rights 
+        nonprofit EFF to stop companies from spying on you online.
+    </string>
+    <string name="privacy_badger_page" translatable="false">https://privacybadger.org/</string>
+
 </resources>

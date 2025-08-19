@@ -70,6 +70,12 @@ fun getBrowserExtensionsTools(context: Context): List<Tool> {
             description = context.getString(R.string.adguard_description),
             icon = R.drawable.adguard,
             homepage = context.getString(R.string.adguard_ios_page)
+        ),
+        Tool(
+            title = context.getString(R.string.privacy_badger),
+            description = context.getString(R.string.privacy_badger_description),
+            icon = R.drawable.eff,
+            homepage = context.getString(R.string.privacy_badger_page)
         )
     )
 }
