@@ -31,7 +31,6 @@
     <string name="choose_startup_category">Choose startup category</string>
     <string name="search_in">Search in %1$s</string>
     <string name="all">All</string>
-
     <string name="no_categories_to_display" translatable="false">No categories to display.</string>
     <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
     <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>

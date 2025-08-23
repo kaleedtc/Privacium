@@ -1,6 +1,5 @@
 package com.kaleedtc.privacium.ui.theme.screens
 
-
 import androidx.activity.ComponentActivity
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding

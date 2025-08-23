@@ -1,4 +1,3 @@
-
 package com.kaleedtc.privacium.data.provider
 
 import android.content.Context
