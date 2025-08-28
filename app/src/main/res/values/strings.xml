@@ -1258,4 +1258,25 @@
     </string>
     <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
 
+    <string name="privacy_badger" translatable="false">Privacy Badger</string>
+    <string name="privacy_badger_description">
+        Privacy Badger is a free browser extension made by the leading digital rights 
+        nonprofit EFF to stop companies from spying on you online.
+    </string>
+    <string name="privacy_badger_page" translatable="false">https://privacybadger.org/</string>
+
+    <string name="snowflake_extension_description">
+        Snowflake allows you to connect to the Tor network in places where Tor is blocked by routing your 
+        connection through volunteer proxies located in uncensored countries.
+    </string>
+    <string name="snowflake_extension_page" translatable="false">https://snowflake.torproject.org/</string>
+
+    <string name="librewolf" translatable="false">LibreWolf</string>
+    <string name="librewolf_description">
+        This project is a custom and independent version of Firefox, with the primary goals of privacy, 
+        security and user freedom. LibreWolf is designed to increase protection against tracking and 
+        fingerprinting techniques, while also including a few security improvements. 
+    </string>
+    <string name="librewolf_page" translatable="false">https://librewolf.net/</string>
+
 </resources>
