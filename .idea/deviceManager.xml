@@ -9,5 +9,10 @@
         </ColumnSorterState>
       </list>
     </option>
+    <option name="groupByAttributes">
+      <list>
+        <option value="Status" />
+      </list>
+    </option>
   </component>
 </project>
