@@ -23,6 +23,12 @@ fun getDesktopBrowsersTools(context: Context): List<Tool> {
             description = context.getString(R.string.mullvad_browser_description),
             icon = R.drawable.mullvad_browser,
             homepage = context.getString(R.string.mullvad_browser_page)
+        ),
+        Tool(
+            title = context.getString(R.string.librewolf),
+            description = context.getString(R.string.librewolf_description),
+            icon = R.drawable.librewolf,
+            homepage = context.getString(R.string.librewolf_page)
         )
     )
 }
@@ -69,6 +75,18 @@ fun getBrowserExtensionsTools(context: Context): List<Tool> {
             description = context.getString(R.string.adguard_description),
             icon = R.drawable.adguard,
             homepage = context.getString(R.string.adguard_ios_page)
+        ),
+        Tool(
+            title = context.getString(R.string.privacy_badger),
+            description = context.getString(R.string.privacy_badger_description),
+            icon = R.drawable.eff,
+            homepage = context.getString(R.string.privacy_badger_page)
+        ),
+        Tool(
+            title = context.getString(R.string.snowflake),
+            description = context.getString(R.string.snowflake_extension_description),
+            icon = R.drawable.snowflake,
+            homepage = context.getString(R.string.snowflake_extension_page)
         )
     )
 }
