@@ -1,5 +1,7 @@
 <resources>
 
+    <!-- Note: Strings marked with translatable="false" don't need translation -->
+
     <string name="app_name" translatable="false">Privacium</string>
     <string name="app_description">
         Privacium is a privacy-focused app that provides
@@ -9,43 +11,46 @@
     <string name="bottom_nav_home">Home</string>
     <string name="bottom_nav_settings">Settings</string>
     <string name="bottom_nav_search">Search</string>
-    <string name="search_for_tools">Search for tools…</string>
-    <string name="no_tools_found_for">No tools found for \"%1$s\".</string>
-    <string name="back_button_content_description" translatable="false">Navigate back to the previous screen</string>
-    <string name="back_button" translatable="false">Back</string>
-    <string name="homepage">Homepage</string>
+
     <string name="settings_title">Settings</string>
     <string name="theme_setting_title">Theme</string>
     <string name="language_setting_title">Language</string>
+    <string name="about_setting_title">About</string>
+    <string name="choose_startup_category">Choose startup category</string>
+
     <string name="choose_theme_title">Choose Theme</string>
     <string name="theme_auto">System Default</string>
     <string name="theme_dark">Dark</string>
     <string name="theme_light">Light</string>
     <string name="choose_language_title">Choose Language</string>
-    <string name="about_setting_title">About</string>
+    <string name="homepage">Homepage</string>
     <string name="homepage_label">Homepage</string>
-    <string name="app_homepage_url" translatable="false">https://github.com/kaleedtc/Privacium</string>
-    <string name="developer_homepage_url" translatable="false">https://github.com/kaleedtc</string>
-    <string name="open_in_new_button" translatable="false">Open in new</string>
     <string name="developer_label">developer</string>
-    <string name="choose_startup_category">Choose startup category</string>
-    <string name="search_in">Search in %1$s</string>
-    <string name="all">All</string>
-    <string name="no_categories_to_display" translatable="false">No categories to display.</string>
-    <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
-    <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>
-    <string name="error_sub_category_not_found" translatable="false">Error: Sub-category name not found.</string>
 
+    <!-- Message shown when a search returns no results. %1$s is the search query. -->
+    <!-- e.g., "No tools found for "Firefox"." -->
+    <string name="all">All</string>
+    <string name="search_for_tools">Search for tools…</string>
+    <string name="search_in">Search in %1$s</string>
+    <string name="no_tools_found_for">No tools found for \"%1$s\".</string>
+
+    <!-- Categories & Sub-categories -->
+    <!-- These strings are used for the main categories and sub-categories of privacy tools -->
     <string name="internet_browsing">Internet Browsing</string>
+    <string name="software">Software</string>
+    <string name="providers">Providers</string>
+    <string name="hardware">Hardware</string>
+    <string name="advanced">Advanced</string>
+    <string name="self_hosting">Self-Hosting</string>
+    <string name="operating_systems">Operating Systems</string>
+
     <string name="desktop_browsers">Desktop Browsers</string>
     <string name="mobile_browsers">Mobile Browsers</string>
     <string name="browser_extensions">Browser Extensions</string>
     <string name="torbrowser">Tor Browser</string>
-    <string name="operating_systems">Operating Systems</string>
     <string name="desktop">Desktop</string>
     <string name="android">Android</string>
     <string name="router_firmware">Router Firmware</string>
-    <string name="software">Software</string>
     <string name="ai_chat">AI Chat</string>
     <string name="password_managers">Password Managers</string>
     <string name="multifactor_authentication">Multifactor Authentication</string>
@@ -66,7 +71,6 @@
     <string name="pastebins">Pastebins</string>
     <string name="real_time_communication">Real-Time Communication</string>
     <string name="social_networks">Social Networks</string>
-    <string name="providers">Providers</string>
     <string name="cloud_storage">Cloud Storage</string>
     <string name="data_removal_services">Data Removal Services</string>
     <string name="dns_resolvers">DNS Resolvers</string>
@@ -76,17 +80,17 @@
     <string name="photo_management">Photo Management</string>
     <string name="search_engines">Search Engines</string>
     <string name="vpn_services">VPN Services</string>
-    <string name="hardware">Hardware</string>
     <string name="mobile_phones">Mobile Phones</string>
     <string name="security_keys">Security Keys</string>
-    <string name="advanced">Advanced</string>
     <string name="alternative_networks">Alternative Networks</string>
     <string name="device_integrity">Device Integrity</string>
-    <string name="self_hosting">Self-Hosting</string>
     <string name="email_servers">Email Servers</string>
     <string name="socialnetworks">Social Networks</string>
     <string name="frontend">Frontend</string>
 
+    <!-- Privacy Tools -->
+    <!-- The following strings contain the name, description, and homepage for each tool -->
+    <!-- Note: Only the description is usually translatable. -->
     <string name="brave_browser" translatable="false">Brave Browser</string>
     <string name="brave_description">
             Brave is built upon the Chromium web browser project
@@ -1257,5 +1261,15 @@
         They have been in operation since 2009.
     </string>
     <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
+
+    <string name="no_categories_to_display" translatable="false">No categories to display.</string>
+    <string name="error_sub_category_not_found" translatable="false">Error: Sub-category name not found.</string>
+    <string name="no_sub_categories_for" translatable="false">No sub-categories for %1$s.</string>
+    <string name="no_tools_available_for" translatable="false">No tools available for %1$s.</string>
+    <string name="back_button" translatable="false">Back</string>
+    <string name="open_in_new_button" translatable="false">Open in new</string>
+    <string name="back_button_content_description" translatable="false">Navigate back to the previous screen</string>
+    <string name="developer_homepage_url" translatable="false">https://github.com/kaleedtc</string>
+    <string name="app_homepage_url" translatable="false">https://github.com/kaleedtc/Privacium</string>
 
 </resources>
