@@ -42,6 +42,16 @@ Privacium is available to download from the official [github releases page](http
 
 ---
 
+## 🌐 Translations
+You can help translate Privacium into your language using [Weblate](https://translate.codeberg.org/projects/privacium/).
+
+You will need an account to update translations and add languages.
+Add the language you want to translate to in Languages -> Manage translated languages in the top menu bar.
+
+[![Translation status](https://translate.codeberg.org/widget/privacium/multi-auto.svg)](https://translate.codeberg.org/engage/privacium/)
+
+---
+
 ## 🛠️ Built With
 - [Kotlin](https://kotlinlang.org/): First-party and official programming language for Android development.
 - [Jetpack Compose](https://developer.android.com/jetpack/compose): Android’s modern toolkit for building native UI.
