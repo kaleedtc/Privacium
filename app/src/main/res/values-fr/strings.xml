@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homepage_label">Page d\'accueil</string>
+    <string name="bottom_nav_home">Accueil</string>
+    <string name="bottom_nav_settings">Paramètres</string>
+    <string name="bottom_nav_search">Recherche</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="language_setting_title">Langue</string>
+    <string name="theme_setting_title">Thème</string>
+    <string name="about_setting_title">A propos</string>
+    <string name="app_description">Privacium est une application axée sur la protection de la vie privée, qui propose une liste sélectionnée de logiciels et services respectueux de la confidentialité.</string>
+    <string name="homepage">Page d\'accueil</string>
+    <string name="choose_theme_title">Choisir thème</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_light">Clair</string>
+    <string name="internet_browsing">Navigation sur Internet</string>
+    <string name="software">Logiciel</string>
+    <string name="providers">Fournisseurs</string>
+    <string name="hardware">Matériel</string>
+</resources>

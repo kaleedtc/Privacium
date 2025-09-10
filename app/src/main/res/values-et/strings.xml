@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_nav_home">Avaleht</string>
+    <string name="bottom_nav_settings">Seadistused</string>
+    <string name="bottom_nav_search">Otsi</string>
+    <string name="settings_title">Seadistused</string>
+    <string name="theme_setting_title">Kujundus</string>
+    <string name="language_setting_title">Keel</string>
+    <string name="about_setting_title">Rakenduse teave</string>
+    <string name="app_description">Privacium on privaatsuskeskne rakendus, kust leiad eelnevalt koostatud privaatse tarkvara ja teenuste loendi.</string>
+</resources>

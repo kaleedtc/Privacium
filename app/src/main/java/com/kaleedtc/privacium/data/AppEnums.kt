@@ -25,8 +25,11 @@ enum class LanguageOption(
     val displayName: String
 ) {
     SYSTEM("system", "System Default"),
-    ENGLISH("en", "English"),
-    ARABIC("ar", "العربية");
+    Arabic("ar", "Arabic"),
+    English("en", "English"),
+    Estonian("et", "Estonian"),
+    French("fr", "French"),
+    Thai("th", "Thai");
 
     companion object {
         fun fromCode(code: String?): LanguageOption {
