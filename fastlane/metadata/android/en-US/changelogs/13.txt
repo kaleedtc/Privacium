@@ -1,0 +1,4 @@
+- New pages "DNS Filtering" and "Password Management" in the Self-Hosting section.
+- Adds Mullvad Leta to the Search Engines page.
+- Replaces Apple Health with Apple Fitness.
+- Removes Picocrypt, as the project is no longer maintained with security updates.
