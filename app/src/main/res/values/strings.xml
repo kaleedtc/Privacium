@@ -87,6 +87,8 @@
     <string name="email_servers">Email Servers</string>
     <string name="socialnetworks">Social Networks</string>
     <string name="frontend">Frontend</string>
+    <string name="dns_filtering">DNS Filtering</string>
+    <string name="password_management">Password Management</string>
 
     <!-- Privacy Tools -->
     <!-- The following strings contain the name, description, and homepage for each tool -->
@@ -465,14 +467,6 @@
     </string>
     <string name="cryptomator_page" translatable="false">https://cryptomator.org/</string>
 
-    <string name="picocrypt" translatable="false">Picocrypt</string>
-    <string name="picocrypt_description">
-        Picocrypt is a small and simple encryption tool that provides modern encryption.
-        Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function
-        to provide a high level of security. It uses Go\'s standard x/crypto modules for its encryption features.
-    </string>
-    <string name="picocrypt_page" translatable="false">https://github.com/Picocrypt/Picocrypt#readme</string>
-
     <string name="veracrypt" translatable="false">VeraCrypt</string>
     <string name="veracrypt_description">
         VeraCrypt is a source-available freeware utility used for on-the-fly encryption.
@@ -645,13 +639,13 @@
     </string>
     <string name="eukiapp_page" translatable="false">https://eukiapp.org/</string>
 
-    <string name="apple_health" translatable="false">Apple Health</string>
-    <string name="applehealth_description">
-        Apple Health is the default health and fitness app for iOS.
-        Apple Health always uses end-to-end encryption when syncing across multiple devices.
+    <string name="apple_fitness" translatable="false">Apple Fitness</string>
+    <string name="apple_fitness_description">
+        Apple Fitness is the default fitness app for iOS.
+        Apple Fitness always uses end-to-end encryption when syncing across multiple devices.
         Additionally, almost all measured data is processed on your device.
     </string>
-    <string name="applehealth_page" translatable="false">https://apple.com/health</string>
+    <string name="apple_fitness_page" translatable="false">https://apps.apple.com/us/app/apple-fitness/id1208224953</string>
 
     <string name="gadgetbridge" translatable="false">Gadgetbridge</string>
     <string name="gadgetbridge_description">
@@ -863,6 +857,14 @@
         on all major desktop and server operating systems.
     </string>
     <string name="gopass_page" translatable="false">https://gopass.pw/</string>
+
+    <string name="vaultwarden" translatable="false">Vaultwarden</string>
+    <string name="vaultwarden_description">
+        Vaultwarden is an alternative implementation of Bitwarden\'s sync server written in Rust
+        and compatible with official Bitwarden clients, perfect for self-hosted deployment
+        where running the resource-heavy, official service might not be ideal.
+    </string>
+    <string name="vaultwarden_page" translatable="false">https://github.com/dani-garcia/vaultwarden#readme</string>
 
     <string name="privatebin" translatable="false">PrivateBin</string>
     <string name="privatebin_description">
@@ -1118,6 +1120,13 @@
     </string>
     <string name="pihole_page" translatable="false">https://pi-hole.net/</string>
 
+    <string name="adguard_home" translatable="false">AdGuard Home</string>
+    <string name="adguard_home_description">
+        AdGuard Home is an open-source DNS sinkhole which features a polished web interface
+        to view insights and manage blocked content.
+    </string>
+    <string name="adguard_home_page" translatable="false">https://adguard.com/en/adguard-home/overview.html</string>
+
     <string name="rethinkdns" translatable="false">RethinkDNS</string>
     <string name="rethinkdns_description">
         RethinkDNS is an open-source Android client that supports DoH, DoT, DNSCrypt and DNS Proxy.
@@ -1225,6 +1234,15 @@
         The search engine uses numerous sources other than Bing for instant answers and other non-primary results.
     </string>
     <string name="duckduckgo_page" translatable="false">https://duckduckgo.com/</string>
+
+    <string name="mullvad_leta" translatable="false">Mullvad Leta</string>
+    <string name="mullvad_leta_description">
+        Mullvad Leta is a search engine developed by Mullvad.
+        It uses a shared cache to fetch search results and limit calls to the search APIs it uses.
+        Mullvad Leta currently only provides text search results.
+        It is the default search engine for the Mullvad Browser.
+    </string>
+    <string name="mullvad_leta_page" translatable="false">https://leta.mullvad.net/</string>
 
     <string name="startpage" translatable="false">Startpage</string>
     <string name="startpage_description">

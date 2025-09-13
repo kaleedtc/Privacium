@@ -179,12 +179,16 @@ fun getCategories(context: Context): List<CategoryTool> {
             subCategories = listOf(
                 context.getString(R.string.email_servers),
                 context.getString(R.string.socialnetworks),
-                context.getString(R.string.frontend)
+                context.getString(R.string.frontend),
+                context.getString(R.string.dns_filtering),
+                context.getString(R.string.password_management)
             ),
             subCategoryIcons = listOf(
                 Icons.Filled.Storage,
                 Icons.Filled.SocialDistance,
-                Icons.Filled.Domain
+                Icons.Filled.Domain,
+                Icons.Filled.Dns,
+                Icons.Filled.Password
             )
         )
     )

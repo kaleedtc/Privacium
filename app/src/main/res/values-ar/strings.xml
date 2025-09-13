@@ -74,6 +74,8 @@
     <string name="email_servers">خوادم البريد الإلكتروني</string>
     <string name="socialnetworks">شبكات التواصل الاجتماعي</string>
     <string name="frontend">الواجهات الأمامية</string>
+    <string name="dns_filtering">تصفية DNS</string>
+    <string name="password_management">إدارة كلمات المرور</string>
 
     <string name="brave_description">
             تم بناء متصفح Brave على مشروع متصفح الويب Chromium ويشمل
@@ -322,10 +324,6 @@
         على أي مزود خدمة سحابية، لضمان عدم الوصول إلى ملفاتك.
     </string>
 
-    <string name="picocrypt_description">
-        أداة صغيرة الحجم ومحمولة وسهلة الاستخدام توفر تشفيرًا حديثًا لضمان مستوى عالٍ من الأمان.
-    </string>
-
     <string name="veracrypt_description">
         برنامج مجاني ومفتوح المصدر يستخدم لتشفير الأقراص والأقسام والملفات.
         يمكنه تشفير أي قسم على القرص الصلب، بما في ذلك القسم الذي يعمل عليه نظام التشغيل.
@@ -441,8 +439,8 @@
         يتم تخزين جميع بيانات محليًا على جهازك ويمكن حمايتها بكلمة مرور.
     </string>
 
-    <string name="applehealth_description">
-        التطبيق الافتراضي للصحة واللياقة البدنية على نظام iOS.
+    <string name="apple_fitness_description">
+        التطبيق الافتراضي للياقة البدنية على نظام iOS.
         يستخدم التشفير عند المزامنة عبر أجهزة متعددة.
         بالإضافة إلى ذلك، يتم معالجة معظم البيانات على جهازك.
     </string>
@@ -591,6 +589,11 @@
     <string name="gopass_description">
        مدير كلمات مرور بسيط يعمل من سطر الأوامر مكتوب بلغة Go.
         يعمل على جميع أنظمة التشغيل الرئيسية لسطح المكتب والخوادم.
+    </string>
+
+    <string name="vaultwarden_description">
+        خادم مفتوح المصدر لـ Bitwarden (مدير كلمات مرور)، مكتوب بلغة Rust،
+        يتيح للمستخدمين إدارة كلمات المرور الخاصة بهم محليًا على أجهزتهم الشخصية.
     </string>
 
     <string name="privatebin_description">
@@ -774,6 +777,10 @@
         دون الحاجة إلى تثبيت أي برنامج على كل جهاز على حدة.
     </string>
 
+    <string name="adguard_home_description">
+        خدمة DNS مفتوحة المصدر تعمل كخادم لحظر الإعلانات والمتتبعات على مستوى شبكتك.
+    </string>
+
     <string name="rethinkdns_description">
         تطبيق مجاني ومفتوح المصدر يعمل كـ جدار حماية (Firewall)
         ومانع إعلانات ومزود DNS مخصص على نظام أندرويد.
@@ -851,6 +858,11 @@
        محرك بحث يركز على حماية خصوصية المستخدمين.
         يستخدم العديد من المصادر بخلاف Bing للحصول على
         الإجابات الفورية وغيرها من النتائج غير الأساسية.
+    </string>
+
+    <string name="mullvad_leta_description">
+       محرك بحث يركز على الخصوصية ويعمل كوسيط بين المستخدم ومحركات البحث الأخرى
+        مثل Google وBrave، حيث يرسل طلبات البحث إلى هذه المحركات دون الكشف عن معلومات المستخدم.
     </string>
 
     <string name="startpage_description">

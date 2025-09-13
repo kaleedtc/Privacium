@@ -169,12 +169,6 @@ fun getEncryptionTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.cryptomator_page)
         ),
         Tool(
-            title = context.getString(R.string.picocrypt),
-            description = context.getString(R.string.picocrypt_description),
-            icon = R.drawable.picocrypt,
-            homepage = context.getString(R.string.picocrypt_page)
-        ),
-        Tool(
             title = context.getString(R.string.veracrypt),
             description = context.getString(R.string.veracrypt_description),
             icon = R.drawable.veracrypt,
@@ -334,10 +328,10 @@ fun getHealthTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.eukiapp_page)
         ),
         Tool(
-            title = context.getString(R.string.apple_health),
-            description = context.getString(R.string.applehealth_description),
-            icon = R.drawable.apple_health,
-            homepage = context.getString(R.string.applehealth_page)
+            title = context.getString(R.string.apple_fitness),
+            description = context.getString(R.string.apple_fitness_description),
+            icon = R.drawable.apple_fitness,
+            homepage = context.getString(R.string.apple_fitness_page)
         ),
         Tool(
             title = context.getString(R.string.gadgetbridge),

@@ -83,12 +83,6 @@ fun getDnsResolversTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.dns0_eu_page)
         ),
         Tool(
-            title = context.getString(R.string.pi_hole),
-            description = context.getString(R.string.pihole_description),
-            icon = R.drawable.pi_hole,
-            homepage = context.getString(R.string.pihole_page)
-        ),
-        Tool(
             title = context.getString(R.string.rethinkdns),
             description = context.getString(R.string.rethinkdns_description),
             icon = R.drawable.rethinkdns,
@@ -202,6 +196,12 @@ fun getSearchEnginesTools(context: Context): List<Tool> {
             description = context.getString(R.string.duckduckgo_description),
             icon = R.drawable.duckduckgo,
             homepage = context.getString(R.string.duckduckgo_page)
+        ),
+        Tool(
+            title = context.getString(R.string.mullvad_leta),
+            description = context.getString(R.string.mullvad_leta_description),
+            icon = R.drawable.mullvad,
+            homepage = context.getString(R.string.mullvad_leta_page)
         ),
         Tool(
             title = context.getString(R.string.startpage),

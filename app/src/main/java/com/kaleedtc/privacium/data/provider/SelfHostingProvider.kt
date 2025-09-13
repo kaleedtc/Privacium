@@ -27,6 +27,34 @@ fun getEmailServersTools(context: Context): List<Tool> {
     )
 }
 
+fun getDnsFilteringTools(context: Context): List<Tool> {
+    return listOf(
+        Tool(
+            title = context.getString(R.string.pi_hole),
+            description = context.getString(R.string.pihole_description),
+            icon = R.drawable.pi_hole,
+            homepage = context.getString(R.string.pihole_page)
+        ),
+        Tool(
+            title = context.getString(R.string.adguard_home),
+            description = context.getString(R.string.adguard_home_description),
+            icon = R.drawable.adguard,
+            homepage = context.getString(R.string.adguard_home_page)
+        )
+    )
+}
+
+fun getPasswordManagementTools(context: Context): List<Tool> {
+    return listOf(
+        Tool(
+            title = context.getString(R.string.vaultwarden),
+            description = context.getString(R.string.vaultwarden_description),
+            icon = R.drawable.vaultwarden,
+            homepage = context.getString(R.string.vaultwarden_page)
+        )
+    )
+}
+
 fun getFrontendTools(context: Context): List<Tool> {
     return listOf(
         Tool(
