@@ -48,7 +48,7 @@
     <string name="encryption">التشفير</string>
     <string name="frontends">واجهات أمامية</string>
     <string name="health">صحة</string>
-    <string name="language_tools">المدقق اللغوي</string>
+    <string name="language_tools">أدوات اللغة</string>
     <string name="maps">خرائط</string>
     <string name="news_aggregators">قارئ الموجز</string>
     <string name="pastebins">مشاركة النصوص</string>
@@ -464,6 +464,12 @@
         مدقق نحوي وإملائي متعدد اللغات، يدعم أكثر من 20 لغة.
     </string>
 
+    <string name="libretranslate_description">
+        واجهة برمجة تطبيقات مجانية ومفتوحة المصدر للترجمة الآلية تعتمد على Argos Translate،
+        وتسمح للمستخدمين بتشغيلها واستضافتها ذاتيًا (self-hosted)
+        دون الحاجة للاتصال بخدمات خارجية مثل جوجل أو مايكروسوفت.
+    </string>
+
     <string name="organicmaps_description">
         تطبيق مفتوح المصدر لعرض الخرائط والتنقل بأسلوب نظام الملاحة.
         يناسب المشاة والسائقين وراكبي الدراجات.
@@ -594,6 +600,12 @@
     <string name="vaultwarden_description">
         خادم مفتوح المصدر لـ Bitwarden (مدير كلمات مرور)، مكتوب بلغة Rust،
         يتيح للمستخدمين إدارة كلمات المرور الخاصة بهم محليًا على أجهزتهم الشخصية.
+    </string>
+
+    <string name="keepassium_description">
+        مدير كلمات مرور لنظامي iOS و macOS يعمل مع قواعد بيانات KeePass،
+        يوفر المزامنة التلقائية مع خدمات التخزين السحابي، والمصادقة الثنائية،
+        والتعبئة التلقائية لكلمات المرور، بالإضافة إلى كونه تطبيقًا مفتوح المصدر يراعي الخصوصية.
     </string>
 
     <string name="privatebin_description">

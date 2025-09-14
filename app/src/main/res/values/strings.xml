@@ -675,6 +675,13 @@
     </string>
     <string name="languagetool_page" translatable="false">https://languagetool.org/</string>
 
+    <string name="libretranslate" translatable="false">LibreTranslate</string>
+    <string name="libretranslate_description">
+        LibreTranslate is a free and open-source machine translation web interface and API server.
+        It uses Argos Translate models on the backend for translations.
+    </string>
+    <string name="libretranslate_page" translatable="false">https://libretranslate.com/</string>
+
     <string name="organic_maps" translatable="false">Organic Maps</string>
     <string name="organicmaps_description">
         Organic Maps is an open-source, community-developed map display and satnav-style navigation app for walkers,
@@ -865,6 +872,15 @@
         where running the resource-heavy, official service might not be ideal.
     </string>
     <string name="vaultwarden_page" translatable="false">https://github.com/dani-garcia/vaultwarden#readme</string>
+
+    <string name="keepassium" translatable="false">KeePassium</string>
+    <string name="keepassium_description">
+        KeePassium is a commercial, open-source password manager made by KeePassium Labs
+        that\'s compatible with other KeePass applications.
+        It provides autofill support, passkey management, automatic two-way synchronization
+        through most cloud storage providers, and more.
+    </string>
+    <string name="keepassium_page" translatable="false">https://keepassium.com/</string>
 
     <string name="privatebin" translatable="false">PrivateBin</string>
     <string name="privatebin_description">

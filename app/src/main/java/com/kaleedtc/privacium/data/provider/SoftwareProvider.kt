@@ -361,6 +361,12 @@ fun getLanguageTools(context: Context): List<Tool> {
             description = context.getString(R.string.languagetool_description),
             icon = R.drawable.languagetool,
             homepage = context.getString(R.string.languagetool_page)
+        ),
+        Tool(
+            title = context.getString(R.string.libretranslate),
+            description = context.getString(R.string.libretranslate_description),
+            icon = R.drawable.libretranslate,
+            homepage = context.getString(R.string.libretranslate_page)
         )
     )
 }
@@ -529,6 +535,12 @@ fun getPasswordManagersTools(context: Context): List<Tool> {
             description = context.getString(R.string.keepassdx_description),
             icon = R.drawable.keepassdx,
             homepage = context.getString(R.string.keepassdx_page)
+        ),
+        Tool(
+            title = context.getString(R.string.keepassium),
+            description = context.getString(R.string.keepassium_description),
+            icon = R.drawable.keepassium,
+            homepage = context.getString(R.string.keepassium_page)
         ),
         Tool(
             title = context.getString(R.string.gopass),
