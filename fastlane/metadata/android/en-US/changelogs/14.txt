@@ -1,0 +1,4 @@
+- New: Add Keepassium tool to Password Managers.
+- New: Add LibreTranslate to Language Tools.
+- Update logos for Tuta and MailBox.org.
+- Update content and dependencies.
