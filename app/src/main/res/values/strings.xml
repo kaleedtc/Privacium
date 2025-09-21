@@ -695,7 +695,7 @@
     <string name="osmand_description">
         OsmAnd is an offline map and navigation application based on OpenStreetMap that
         offers turn-by-turn navigation for walking, cycling, driving, as well as public transport.
-        It is open source and does not collect any user data.
+        It is open-source and does not collect any user data.
     </string>
     <string name="osmand_page" translatable="false">https://osmand.net/</string>
 
