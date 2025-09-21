@@ -926,7 +926,7 @@
     <string name="briar" translatable="false">Briar</string>
     <string name="briar_description">
         Briar is an encrypted instant messenger that connects to other clients using the Tor network,
-        making it an effective tool at circumventing  Censorship.
+        making it an effective tool at circumventing censorship.
         Briar can also connect via Wi-Fi or Bluetooth when in local proximity.
         Briar’s local mesh mode can be useful when internet availability is a problem.
     </string>
