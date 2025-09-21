@@ -628,7 +628,7 @@
 
     <string name="drip" translatable="false">Drip</string>
     <string name="drip_description">
-        Drip is a gender-inclusive and open source menstrual cycle tracker available on all mobile platforms.
+        Drip is a gender-inclusive and open-source menstrual cycle tracker available on all mobile platforms.
     </string>
     <string name="drip_page" translatable="false">https://bloodyhealth.gitlab.io/</string>
 
