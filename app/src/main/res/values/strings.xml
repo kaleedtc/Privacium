@@ -919,7 +919,7 @@
     <string name="simplexchat" translatable="false">SimpleX Chat</string>
     <string name="simplexchat_description">
         SimpleX Chat is an instant messenger that doesn\'t depend on any unique identifiers
-        such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against Censorship.
+        such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against censorship.
     </string>
     <string name="simplexchat_page" translatable="false">https://simplex.chat/</string>
 
