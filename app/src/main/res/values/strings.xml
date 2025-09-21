@@ -1223,7 +1223,7 @@
     <string name="ente_photos_description">
         Ente Photos is an end-to-end encrypted photo backup service
         which supports automatic backups on iOS and Android.
-        Their code is fully open source, both on the client side and on the server side.
+        Their code is fully open-source, both on the client side and on the server side.
     </string>
     <string name="ente_page" translatable="false">https://ente.io/</string>
 
