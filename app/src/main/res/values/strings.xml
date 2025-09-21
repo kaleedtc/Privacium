@@ -904,7 +904,7 @@
     <string name="signal_description">
         Signal provides instant messaging and calls secured with the Signal protocol,
         an extremely secure encryption protocol which supports
-        forward secrecy1 and post-compromise security.
+        forward secrecy and post-compromise security.
     </string>
     <string name="signal_page" translatable="false">https://signal.org/</string>
 
