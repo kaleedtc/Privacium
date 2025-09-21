@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Privacium ist eine auf Datenschutz ausgerichtete App, die eine übersichtliche Liste von Software und Diensten bereitstellt, die deinen Datenschutz respektieren.</string>
+    <string name="bottom_nav_home">Startseite</string>
+    <string name="bottom_nav_settings">Einstellungen</string>
+    <string name="bottom_nav_search">Suche</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="theme_setting_title">Thema</string>
+    <string name="language_setting_title">Sprache</string>
+    <string name="about_setting_title">Über</string>
+    <string name="choose_startup_category">Startkategorie auswählen</string>
+    <string name="choose_theme_title">Thema auswählen</string>
+    <string name="theme_auto">System Standard</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_light">Hell</string>
+    <string name="choose_language_title">Sprache auswählen</string>
+    <string name="homepage">Startseite</string>
+    <string name="homepage_label">Startseite</string>
+    <string name="developer_label">entwickler</string>
+    <string name="all">Alle</string>
+</resources>

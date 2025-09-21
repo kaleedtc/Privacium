@@ -26,10 +26,14 @@ enum class LanguageOption(
 ) {
     SYSTEM("system", "System Default"),
     Arabic("ar", "Arabic"),
+    Dutch("nl", "Dutch"),
     English("en", "English"),
     Estonian("et", "Estonian"),
     French("fr", "French"),
-    Thai("th", "Thai");
+    German("de", "German"),
+    Italian("it", "Italian"),
+    Thai("th", "Thai"),
+    Turkish("tr", "Turkish");
 
     companion object {
         fun fromCode(code: String?): LanguageOption {
