@@ -18,11 +18,11 @@
     <string name="about_setting_title">About</string>
     <string name="choose_startup_category">Choose startup category</string>
 
-    <string name="choose_theme_title">Choose Theme</string>
-    <string name="theme_auto">System Default</string>
+    <string name="choose_theme_title">Choose theme</string>
+    <string name="theme_auto">System default</string>
     <string name="theme_dark">Dark</string>
     <string name="theme_light">Light</string>
-    <string name="choose_language_title">Choose Language</string>
+    <string name="choose_language_title">Choose language</string>
     <string name="homepage">Homepage</string>
     <string name="homepage_label">Homepage</string>
     <string name="developer_label">Developer</string>
@@ -36,59 +36,59 @@
 
     <!-- Categories & Sub-categories -->
     <!-- These strings are used for the main categories and sub-categories of privacy tools -->
-    <string name="internet_browsing">Internet Browsing</string>
+    <string name="internet_browsing">Internet browsing</string>
     <string name="software">Software</string>
     <string name="providers">Providers</string>
     <string name="hardware">Hardware</string>
     <string name="advanced">Advanced</string>
-    <string name="self_hosting">Self-Hosting</string>
-    <string name="operating_systems">Operating Systems</string>
+    <string name="self_hosting">Self-hosting</string>
+    <string name="operating_systems">Operating systems</string>
 
-    <string name="desktop_browsers">Desktop Browsers</string>
-    <string name="mobile_browsers">Mobile Browsers</string>
-    <string name="browser_extensions">Browser Extensions</string>
-    <string name="torbrowser">Tor Browser</string>
+    <string name="desktop_browsers">Desktop browsers</string>
+    <string name="mobile_browsers">Mobile browsers</string>
+    <string name="browser_extensions">Browser extensions</string>
+    <string name="torbrowser">Tor browser</string>
     <string name="desktop">Desktop</string>
     <string name="android">Android</string>
-    <string name="router_firmware">Router Firmware</string>
-    <string name="ai_chat">AI Chat</string>
-    <string name="password_managers">Password Managers</string>
-    <string name="multifactor_authentication">Multifactor Authentication</string>
-    <string name="email_clients">Email Clients</string>
+    <string name="router_firmware">Router firmware</string>
+    <string name="ai_chat">AI chat</string>
+    <string name="password_managers">Password managers</string>
+    <string name="multifactor_authentication">Multifactor authentication</string>
+    <string name="email_clients">Email clients</string>
     <string name="calendar">Calendar</string>
-    <string name="office_suites">Office Suites</string>
+    <string name="office_suites">Office suites</string>
     <string name="notebooks">Notebooks</string>
     <string name="cryptocurrency">Cryptocurrency</string>
-    <string name="file_sharing">File Sharing</string>
+    <string name="file_sharing">File sharing</string>
     <string name="metadata">Metadata</string>
-    <string name="document_collaboration">Document Collaboration</string>
+    <string name="document_collaboration">Document collaboration</string>
     <string name="encryption">Encryption</string>
     <string name="frontends">Frontends</string>
     <string name="health">Health</string>
-    <string name="language_tools">Language Tools</string>
+    <string name="language_tools">Language tools</string>
     <string name="maps">Maps</string>
-    <string name="news_aggregators">News Aggregators</string>
+    <string name="news_aggregators">News aggregators</string>
     <string name="pastebins">Pastebins</string>
-    <string name="real_time_communication">Real-Time Communication</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="cloud_storage">Cloud Storage</string>
-    <string name="data_removal_services">Data Removal Services</string>
-    <string name="dns_resolvers">DNS Resolvers</string>
-    <string name="email_aliasing">Email Aliasing</string>
-    <string name="email_services">Email Services</string>
-    <string name="financial_services">Financial Services</string>
-    <string name="photo_management">Photo Management</string>
-    <string name="search_engines">Search Engines</string>
-    <string name="vpn_services">VPN Services</string>
-    <string name="mobile_phones">Mobile Phones</string>
-    <string name="security_keys">Security Keys</string>
-    <string name="alternative_networks">Alternative Networks</string>
-    <string name="device_integrity">Device Integrity</string>
-    <string name="email_servers">Email Servers</string>
-    <string name="socialnetworks">Social Networks</string>
+    <string name="real_time_communication">Real-time communication</string>
+    <string name="social_networks">Social networks</string>
+    <string name="cloud_storage">Cloud storage</string>
+    <string name="data_removal_services">Data removal services</string>
+    <string name="dns_resolvers">DNS resolvers</string>
+    <string name="email_aliasing">Email aliasing</string>
+    <string name="email_services">Email services</string>
+    <string name="financial_services">Financial services</string>
+    <string name="photo_management">Photo management</string>
+    <string name="search_engines">Search engines</string>
+    <string name="vpn_services">VPN services</string>
+    <string name="mobile_phones">Mobile phones</string>
+    <string name="security_keys">Security keys</string>
+    <string name="alternative_networks">Alternative networks</string>
+    <string name="device_integrity">Device integrity</string>
+    <string name="email_servers">Email servers</string>
+    <string name="socialnetworks">Social networks</string>
     <string name="frontend">Frontend</string>
-    <string name="dns_filtering">DNS Filtering</string>
-    <string name="password_management">Password Management</string>
+    <string name="dns_filtering">DNS filtering</string>
+    <string name="password_management">Password management</string>
 
     <!-- Privacy Tools -->
     <!-- The following strings contain the name, description, and homepage for each tool -->
@@ -367,7 +367,7 @@
     <string name="cakewallet_page" translatable="false">https://cakewallet.com/</string>
 
     <string name="monerujo" translatable="false">Monerujo</string>
-    <string name="monerujo_description">An Android Monero Wallet</string>
+    <string name="monerujo_description">An Android Monero wallet</string>
     <string name="monerujo_page" translatable="false">https://www.monerujo.app/</string>
 
     <string name="feather_wallet" translatable="false">Feather Wallet</string>

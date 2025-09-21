@@ -5,6 +5,6 @@ Discover privacy-respecting software and services, all based on the standard cri
 Features:
 
 * No ads, no tracking, no permissions requested.
-* Full RTL Support.
-* Clean and Modern UI.
-* Dynamic Theming support.
+* Full RTL support.
+* Clean and modern UI.
+* Dynamic theming support.
