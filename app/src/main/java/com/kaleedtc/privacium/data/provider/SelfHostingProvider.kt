@@ -55,6 +55,29 @@ fun getPasswordManagementTools(context: Context): List<Tool> {
     )
 }
 
+fun getFileManagementTools(context: Context): List<Tool> {
+    return listOf(
+        Tool(
+            title = context.getString(R.string.photoprism),
+            description = context.getString(R.string.photoprism_description),
+            icon = R.drawable.photoprism,
+            homepage = context.getString(R.string.photoprism_page)
+        ),
+        Tool(
+            title = context.getString(R.string.freedombox),
+            description = context.getString(R.string.freedombox_description),
+            icon = R.drawable.freedombox,
+            homepage = context.getString(R.string.freedombox_page)
+        ),
+        Tool(
+            title = context.getString(R.string.nextcloud),
+            description = context.getString(R.string.nextcloud_description),
+            icon = R.drawable.nextcloud,
+            homepage = context.getString(R.string.nextcloud_page)
+        )
+    )
+}
+
 fun getFrontendTools(context: Context): List<Tool> {
     return listOf(
         Tool(

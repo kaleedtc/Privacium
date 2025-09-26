@@ -181,7 +181,8 @@ fun getCategories(context: Context): List<CategoryTool> {
                 context.getString(R.string.socialnetworks),
                 context.getString(R.string.frontend),
                 context.getString(R.string.dns_filtering),
-                context.getString(R.string.password_management)
+                context.getString(R.string.password_management),
+                context.getString(R.string.file_management)
             ),
             subCategoryIcons = listOf(
                 Icons.Filled.Storage,

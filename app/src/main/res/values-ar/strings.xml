@@ -76,6 +76,7 @@
     <string name="frontend">الواجهات الأمامية</string>
     <string name="dns_filtering">تصفية DNS</string>
     <string name="password_management">إدارة كلمات المرور</string>
+    <string name="file_management">إدارة الملفات</string>
 
     <string name="brave_description">
             تم بناء متصفح Brave على مشروع متصفح الويب Chromium ويشمل

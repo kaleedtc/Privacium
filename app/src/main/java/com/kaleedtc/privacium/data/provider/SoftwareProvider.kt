@@ -99,12 +99,6 @@ fun getMetadataTools(context: Context): List<Tool> {
 fun getDocumentCollaborationTools(context: Context): List<Tool> {
     return listOf(
         Tool(
-            title = context.getString(R.string.nextcloud),
-            description = context.getString(R.string.nextcloud_description),
-            icon = R.drawable.nextcloud,
-            homepage = context.getString(R.string.nextcloud_page)
-        ),
-        Tool(
             title = context.getString(R.string.cryptpad),
             description = context.getString(R.string.cryptpad_description),
             icon = R.drawable.cryptpad,
@@ -244,12 +238,6 @@ fun getFileSharingTools(context: Context): List<Tool> {
             description = context.getString(R.string.onionshare_description),
             icon = R.drawable.onionshare,
             homepage = context.getString(R.string.onionshare_page)
-        ),
-        Tool(
-            title = context.getString(R.string.freedombox),
-            description = context.getString(R.string.freedombox_description),
-            icon = R.drawable.freedombox,
-            homepage = context.getString(R.string.freedombox_page)
         ),
         Tool(
             title = context.getString(R.string.syncthing),

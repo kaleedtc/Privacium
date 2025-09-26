@@ -89,6 +89,7 @@
     <string name="frontend">Frontend</string>
     <string name="dns_filtering">DNS filtering</string>
     <string name="password_management">Password management</string>
+    <string name="file_management">File management</string>
 
     <!-- Privacy Tools -->
     <!-- The following strings contain the name, description, and homepage for each tool -->

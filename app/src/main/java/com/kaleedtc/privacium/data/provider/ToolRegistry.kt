@@ -67,5 +67,6 @@ object ToolRegistry {
         register(context.getString(R.string.frontend)) { getFrontendTools(it) }
         register(context.getString(R.string.dns_filtering)) { getDnsFilteringTools(it) }
         register(context.getString(R.string.password_management)) { getPasswordManagementTools(it) }
+        register(context.getString(R.string.file_management)) { getFileManagementTools(it) }
     }
 }
