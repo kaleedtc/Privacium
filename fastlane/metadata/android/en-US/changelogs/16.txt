@@ -1,0 +1,3 @@
+- Added a "File management" page to the "Self-hosting" section.
+- Moved recommendations for Nextcloud, FreedomBox, and PhotoPrism to the new page for easier discovery.
+- Updated core app dependencies for improved performance and stability.
