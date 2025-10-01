@@ -24,7 +24,7 @@ enum class LanguageOption(
     val code: String,
     val displayName: String
 ) {
-    SYSTEM("system", "System Default"),
+    SYSTEM("system", "System default"),
     Arabic("ar", "Arabic"),
     Dutch("nl", "Dutch"),
     English("en", "English"),

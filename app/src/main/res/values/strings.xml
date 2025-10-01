@@ -136,7 +136,7 @@
     <string name="ublock_origin" translatable="false">uBlock Origin</string>
     <string name="ublock_origin_description">
         uBlock Origin is a popular content blocker that could help you
-        block ads, trackers,and fingerprinting scripts.
+        block ads, trackers, and fingerprinting scripts.
     </string>
     <string name="ublock_page" translatable="false">https://github.com/gorhill/uBlock#readme</string>
 
@@ -1118,7 +1118,7 @@
 
     <string name="adguard_dns_description">
         Supports advanced DNS encryption protocols, including DNS over HTTPS (DoH)
-        and DNS over TLS (DoT)and DNS over QUIC (DoQ) and DNSCrypt
+        and DNS over TLS (DoT) and DNS over QUIC (DoQ) and DNSCrypt
     </string>
     <string name="adguard_dns_page" translatable="false">https://adguard-dns.io/en/public-dns.html</string>
 
