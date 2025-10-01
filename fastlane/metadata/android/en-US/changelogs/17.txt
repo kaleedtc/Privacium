@@ -1,0 +1,2 @@
+- Updated various app descriptions to align with Privacy Guides.
+- Fixed various typos and capitalization issues.
