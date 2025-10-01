@@ -114,6 +114,7 @@
         Mullvad Browser is a version of Tor Browser with Tor network integrations removed.
         It aims to provide to VPN users Tor Browser\'s anti-fingerprinting browser technologies,
         which are key protections against Mass Surveillance.
+        It is developed by the Tor Project and distributed by Mullvad, and does not require the use of Mullvad's VPN.
     </string>
     <string name="mullvad_browser_page" translatable="false">https://mullvad.net/en/browser</string>
 
@@ -142,6 +143,7 @@
 
     <string name="ublock_origin_lite" translatable="false">uBlock Origin Lite</string>
     <string name="ublock_origin_lite_description">
+        uBlock Origin Lite is a Manifest V3 compatible content blocker.
         Compared to the original uBlock Origin, this extension does not require broad
         permissions to function, which lowers the risk of  Passive Attacks
         on your browser if a malicious rule is added to a filter list.
@@ -317,6 +319,8 @@
     <string name="kobold_cpp" translatable="false">Kobold.cpp</string>
     <string name="koboldcpp_description">
         Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
+        It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+
     </string>
     <string name="koboldcpp_page" translatable="false">https://github.com/LostRuins/koboldcpp#readme</string>
 
@@ -333,6 +337,7 @@
     <string name="llamafile_description">
         Llamafile is a lightweight, single-file executable that allows users to run LLMs locally
         on their own computers without any setup involved.
+        It is backed by Mozilla and available on Linux, macOS, and Windows.
     </string>
     <string name="llamafile_page" translatable="false">https://github.com/Mozilla-Ocho/llamafile#readme</string>
 
@@ -381,6 +386,7 @@
     <string name="mat2_description">
         MAT2 is free, cross-platform software which allows you to remove metadata from image,
         audio, torrent, and document file types.
+        It provides both a command line tool and a graphical user interface via an extension for Dolphin, the default file manager of KDE.
     </string>
     <string name="mat2_page" translatable="false">https://0xacab.org/jvoisin/mat2</string>
 
@@ -458,6 +464,7 @@
     <string name="neomutt_description">
         NeoMutt is an open-source command line email reader for Linux and BSD.
         It\'s a fork of Mutt with added features.
+        NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
     </string>
     <string name="neomutt_page" translatable="false">https://neomutt.org/</string>
 
@@ -465,6 +472,7 @@
     <string name="cryptomator_description">
         Cryptomator is an encryption solution designed for privately saving files to any cloud  Service Provider,
         eliminating the need to trust that they won\'t access your files.
+        It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
     </string>
     <string name="cryptomator_page" translatable="false">https://cryptomator.org/</string>
 
@@ -502,6 +510,7 @@
     <string name="kryptor_description">
         Kryptor is a free and open-source file encryption and signing
         tool that makes use of modern and secure cryptographic algorithms.
+        It aims to be a better version of age and Minisign to provide a simple, easier alternative to GPG.
     </string>
     <string name="kryptor_page" translatable="false">https://kryptor.co.uk/</string>
 
@@ -554,13 +563,15 @@
     <string name="onionshare_description">
         OnionShare is an open-source tool that lets you securely
         and anonymously share a file of any size.
+        It works by starting a web server accessible as a Tor onion service,
+        with an unguessable URL that you can share with the recipients to download or send files.
     </string>
     <string name="onionshare_page" translatable="false">https://onionshare.org/</string>
 
     <string name="freedombox" translatable="false">FreedomBox</string>
     <string name="freedombox_description">
         FreedomBox is an operating system designed to be run on a single-board computer (SBC).
-        The purpose is to make it easy to set up server applications that you might want to self-host.
+        The purpose is to make it easy to set up server applications for use cases like sharing files.
     </string>
     <string name="freedombox_page" translatable="false">https://freedombox.org/</string>
 
@@ -604,12 +615,16 @@
         FreeTube is a free and open-source desktop application for YouTube.
         FreeTube extracts data from YouTube using its built-in API based on YouTube.js or the Invidious API.
         You can configure either as the default, with the other serving as a fallback.
+        When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
     </string>
     <string name="freetubeapp_page" translatable="false">https://freetubeapp.io/</string>
 
     <string name="yattee" translatable="false">Yattee</string>
     <string name="yattee_description">
         Yattee is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for YouTube.
+        Due to App Store restrictions, you will need to take a few extra steps before you can use Yattee to watch YouTube.
+        Yattee allows you to connect to instances of Invidious or Piped.
+        When using Yattee, your subscription list is saved locally on your device.
     </string>
     <string name="yattee_page" translatable="false">https://github.com/yattee/yattee</string>
 
@@ -624,6 +639,7 @@
     <string name="newpipe_description">
         NewPipe is a free and open-source Android application for YouTube, SoundCloud, media.ccc.de,
         Bandcamp, and PeerTube.
+        Your subscription list and playlists are saved locally on your Android device.
     </string>
     <string name="newpipe_page" translatable="false">https://newpipe.net/</string>
 
@@ -673,6 +689,8 @@
     <string name="languagetool_description">
         LanguageTool is a multilingual grammar, style,
         and spell checker that supports more than 20 languages.
+        According to their privacy policy, they do not store any content sent to their service for review,
+        but for higher assurance the software is self-hostable.
     </string>
     <string name="languagetool_page" translatable="false">https://languagetool.org/</string>
 
@@ -771,6 +789,8 @@
     <string name="notesnook_description">
         Notesnook is a free (as in speech), open-source,
         and easy-to-use E2EE note-taking app focused on user privacy.
+        It features sync functionality that allows you to access your notes on multiple platforms.
+        You can easily import your notes from Evernote, OneNote, and other apps using their official importer.
     </string>
     <string name="notesnook_page" translatable="false">https://notesnook.com/</string>
 
@@ -778,6 +798,7 @@
     <string name="joplin_description">
         Joplin is a free, open-source, and fully-featured E2EE note-taking and to-do application
         which can handle numerous Markdown notes organized into notebooks and tags.
+        It can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
     </string>
     <string name="joplinapp_page" translatable="false">https://joplinapp.org/</string>
 
@@ -785,6 +806,8 @@
     <string name="cryptee_description">
         Cryptee is an open-source, web-based E2EE document editor
         and photo storage application.
+        Cryptee offers 100 MB of storage for free, with paid options if you need more.
+        Sign-up doesn't require an e-mail or other personally identifiable information.
     </string>
     <string name="cryptee_page" translatable="false">https://crypt.ee/</string>
 
@@ -914,6 +937,8 @@
         Molly is an alternative Signal client for Android which allows you to encrypt the local database
         with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor,
         and more.
+        It also has usability improvements including scheduled backups, automatic locking,
+        and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
     </string>
     <string name="molly_page" translatable="false">https://molly.im/</string>
 
@@ -1014,17 +1039,16 @@
 
     <string name="yubikey" translatable="false">YubiKey</string>
     <string name="yubikey_description">
-        The YubiKey series from Yubico are among the most popular security keys with FIDO Level 2 Certification1.
-        The YubiKey 5 Series has a wide range of features such as Universal 2nd Factor (U2F), FIDO2 and WebAuthn,
-        Yubico OTP, Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
+        The YubiKey series from Yubico are among the most popular security keys with FIDO Level 2 Certification.
+        The YubiKey 5 Series has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, TOTP and HOTP authentication, Personal Identity Verification (PIV), and OpenPGP.
     </string>
     <string name="yubico_page" translatable="false">https://yubico.com/products/yubikey-5-overview</string>
 
     <string name="nitrokey" translatable="false">Nitrokey</string>
     <string name="nitrokey_description">
-        Nitrokey has a security key capable of FIDO2 and WebAuthn called the Nitrokey FIDO2.
-        For PGP support, you need to purchase one of their other keys such as the Nitrokey Start,
-        Nitrokey Pro 2, or the Nitrokey Storage 2.
+        Nitrokey has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the Nitrokey Passkey.
+        For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the Nitrokey 3.
+        Currently, only the Nitrokey 3A Mini has FIDO Level 1 Certification.
     </string>
     <string name="nitrokey_page" translatable="false">https://nitrokey.com/</string>
 
@@ -1033,6 +1057,7 @@
         Stalwart is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP.
         It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security
         and features, making it easy to use immediately.
+        It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt all incoming messages.
     </string>
     <string name="stalwart_page" translatable="false">https://stalw.art/</string>
 
@@ -1054,12 +1079,14 @@
     <string name="protondrive" translatable="false">Proton Drive</string>
     <string name="protondrive_description">
         Proton Drive is an encrypted cloud storage provider from the popular encrypted email provider Proton Mail.
+        The initial free storage is limited to 2 GB, but with the completion of certain steps, additional storage can be obtained up to 5 GB.
     </string>
     <string name="protondrive_page" translatable="false">https://proton.me/drive</string>
 
     <string name="tresorit" translatable="false">Tresorit</string>
     <string name="tresorit_description">
         Tresorit is a Swiss-Hungarian encrypted cloud storage provider founded in 2011.
+        Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
     </string>
     <string name="tresorit_page" translatable="false">https://tresorit.com/</string>
 
@@ -1089,9 +1116,8 @@
 
     <string name="controld" translatable="false">ControlD</string>
     <string name="controld_description">
-        Supports advanced DNS encryption protocols,
-        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
-        and DNS over QUIC (DoQ).
+        Control D is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+        In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
     </string>
     <string name="controld_page" translatable="false">https://controld.com/free-dns</string>
 
@@ -1132,8 +1158,7 @@
 
     <string name="pi_hole" translatable="false">Pi-hole</string>
     <string name="pihole_description">
-        Pi-hole is an open-source DNS-sinkhole which uses DNS filtering
-        to block unwanted web content, such as advertisements.
+        Pi-hole is an open-source DNS-sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware.
     </string>
     <string name="pihole_page" translatable="false">https://pi-hole.net/</string>
 
@@ -1182,6 +1207,8 @@
     <string name="protonmail" translatable="false">Proton Mail</string>
     <string name="protonmail_description">
         Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use.
+        They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+        The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
     </string>
     <string name="protonmail_page" translatable="false">https://proton.me/mail</string>
 
@@ -1189,12 +1216,16 @@
     <string name="mailbox_org_description">
         Mailbox.org is an email service with a focus on being secure,
         ad-free, and powered by 100% eco-friendly energy.
+        They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
+        Accounts start with up to 2 GB storage, which can be upgraded as needed.
     </string>
     <string name="mailbox_org_page" translatable="false">https://mailbox.org/</string>
 
     <string name="tuta_email_description">
         Tuta (formerly Tutanota) is an email service with a focus
         on security and privacy through the use of encryption.
+        Tuta has been in operation since 2011 and is based in Hanover, Germany.
+        Free accounts start with 1 GB of storage.
     </string>
     <string name="privacy_com" translatable="false">Privacy.com</string>
 
@@ -1224,7 +1255,8 @@
     <string name="ente_photos_description">
         Ente Photos is an end-to-end encrypted photo backup service
         which supports automatic backups on iOS and Android.
-        Their code is fully open-source, both on the client side and on the server side.
+        Their code is fully open-source, both on the client side and on the server side. It is also self-hostable.
+        The free plan offers 10 GB of storage as long as you use the service at least once a year.
     </string>
     <string name="ente_page" translatable="false">https://ente.io/</string>
 
@@ -1239,8 +1271,8 @@
     <string name="brave_search" translatable="false">Brave Search</string>
     <string name="brave_search_description">
         Brave Search is a search engine developed by Brave.
-        The index is optimized against Google Search
-        and therefore may provide more contextually accurate results compared to other alternatives.
+        It includes unique features such as Discussions, which highlights conversation-focused results such as forum posts.
+        Brave Search is the default search engine for the Brave Browser.
     </string>
     <string name="brave_search_page" translatable="false">https://search.brave.com/</string>
 
@@ -1249,6 +1281,7 @@
         DuckDuckGo is one of the more mainstream private search engine options.
         Notable DuckDuckGo search features include bangs and a variety of instant answers.
         The search engine uses numerous sources other than Bing for instant answers and other non-primary results.
+        DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
     </string>
     <string name="duckduckgo_page" translatable="false">https://duckduckgo.com/</string>
 
@@ -1267,6 +1300,9 @@
         One of Startpage\'s unique features is the Anonymous View,
         which puts forth efforts to standardize user activity
         to make it more difficult to be uniquely identified.
+        The feature can be useful for hiding some network and browser properties.
+        Unlike the name suggests, the feature should not be relied upon for anonymity.
+        If you are looking for anonymity, use the Tor Browser instead.
     </string>
     <string name="startpage_page" translatable="false">https://startpage.com/</string>
 
@@ -1294,6 +1330,7 @@
     <string name="mullvadvpn_description">
         Mullvad is a fast and inexpensive VPN with a serious focus on transparency and security.
         They have been in operation since 2009.
+        Mullvad is based in Sweden and offers a 14-day money-back guarantee for payment methods that allow it.
     </string>
     <string name="mullvadvpn_page" translatable="false">https://mullvad.net/</string>
 
