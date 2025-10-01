@@ -114,7 +114,7 @@
         Mullvad Browser is a version of Tor Browser with Tor network integrations removed.
         It aims to provide to VPN users Tor Browser\'s anti-fingerprinting browser technologies,
         which are key protections against Mass Surveillance.
-        It is developed by the Tor Project and distributed by Mullvad, and does not require the use of Mullvad's VPN.
+        It is developed by the Tor Project and distributed by Mullvad, and does not require the use of Mullvad\'s VPN.
     </string>
     <string name="mullvad_browser_page" translatable="false">https://mullvad.net/en/browser</string>
 
@@ -319,7 +319,7 @@
     <string name="kobold_cpp" translatable="false">Kobold.cpp</string>
     <string name="koboldcpp_description">
         Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer.
-        It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+        It\'s an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
 
     </string>
     <string name="koboldcpp_page" translatable="false">https://github.com/LostRuins/koboldcpp#readme</string>
@@ -807,7 +807,7 @@
         Cryptee is an open-source, web-based E2EE document editor
         and photo storage application.
         Cryptee offers 100 MB of storage for free, with paid options if you need more.
-        Sign-up doesn't require an e-mail or other personally identifiable information.
+        Sign-up doesn\'t require an e-mail or other personally identifiable information.
     </string>
     <string name="cryptee_page" translatable="false">https://crypt.ee/</string>
 
@@ -1158,7 +1158,8 @@
 
     <string name="pi_hole" translatable="false">Pi-hole</string>
     <string name="pihole_description">
-        Pi-hole is an open-source DNS-sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware.
+        Pi-hole is an open-source DNS-sinkhole which features a friendly web interface to view insights and manage blocked content.
+        Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware.
     </string>
     <string name="pihole_page" translatable="false">https://pi-hole.net/</string>
 
