@@ -45,4 +45,18 @@
     <string name="adguard_description">iOS için AdGuard, Safari tarayıcısında yerel İçerik Engelleyici API\'sını kullanan ücretsiz ve açık kaynaklı bir içerik engelleme uzantısıdır.</string>
     <string name="adguard_home_description">AdGuard Home, engelenen içerikleri görüp yönetebileceğiniz, zengin özellikli, gelişmiş web arayüzlü, açık kaynaklı bir DNS uyglamasıdır.</string>
     <string name="adguard_dns_description">İleri seviyede şifrelenmiş, buradaki DNS protokollerini destekler: DNS over HTTPS (DoH), DNS over TLS (DoT), DNS over QUIC (DoQ) ve DNSCrypt</string>
+    <string name="language_tools">Dil Araçları</string>
+    <string name="maps">Haritalar</string>
+    <string name="social_networks">Sosyal Ağlar</string>
+    <string name="cloud_storage">Bulut Depolama</string>
+    <string name="dns_resolvers">DNS Çözücüler</string>
+    <string name="photo_management">Fotoğraf Yönetimi</string>
+    <string name="search_engines">Arama Motorları</string>
+    <string name="vpn_services">VPN Servisleri</string>
+    <string name="security_keys">Güvenlik Anahtarları</string>
+    <string name="alternative_networks">Alternatif Ağlar</string>
+    <string name="device_integrity">Cihaz Bütünlüğü</string>
+    <string name="socialnetworks">Sosyal Ağlar</string>
+    <string name="metadata">Üst veri</string>
+    <string name="health">Sağlık</string>
 </resources>
