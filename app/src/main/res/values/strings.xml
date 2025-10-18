@@ -388,7 +388,7 @@
         audio, torrent, and document file types.
         It provides both a command line tool and a graphical user interface via an extension for Dolphin, the default file manager of KDE.
     </string>
-    <string name="mat2_page" translatable="false">https://0xacab.org/jvoisin/mat2</string>
+    <string name="mat2_page" translatable="false">https://github.com/jvoisin/mat2</string>
 
     <string name="exiferaser" translatable="false">ExifEraser</string>
     <string name="exiferaser_description">
