@@ -1,2 +1,0 @@
-- Kotlin updated to 2.2.10 for improved stability and performance.
-

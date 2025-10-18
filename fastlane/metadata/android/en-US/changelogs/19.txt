@@ -1,2 +1,0 @@
-- Minor stability improvements.
-- Update translations.

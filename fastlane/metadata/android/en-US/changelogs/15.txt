@@ -1,5 +1,0 @@
-- Added full translation for Italian.
-- Added translations for Dutch, German, and Turkish.
-- Updated Thai translation.
-- Made several UI improvements.
-- Fixed various typos.

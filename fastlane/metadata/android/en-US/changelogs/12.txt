@@ -1,2 +1,0 @@
-- Added translations for Thai, French, and Estonian.
-- Minor stability improvements.

@@ -1,4 +1,0 @@
-- Make search bar fixed at the top.
-- Add clear button to search input.
-- Make search input background transparent.
-- update dependencies.

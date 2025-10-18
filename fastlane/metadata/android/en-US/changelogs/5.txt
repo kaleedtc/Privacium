@@ -1,3 +1,0 @@
-- Added a new feature to set a default category from settings.
-- The app will now open to your chosen category for quicker access.
-
