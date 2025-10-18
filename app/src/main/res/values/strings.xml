@@ -1093,8 +1093,8 @@
     <string name="peergos" translatable="false">Peergos</string>
     <string name="peergos_description">
         Peergos is a decentralized protocol and open-source platform for storage, social media, and applications.
-        It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc.
-        Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private.
+        It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
+        Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also self-hostable.
     </string>
     <string name="peergos_page" translatable="false">https://peergos.org/</string>
 
