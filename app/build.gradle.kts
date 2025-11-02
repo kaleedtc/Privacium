@@ -14,8 +14,8 @@ android {
         applicationId = "com.kaleedtc.privacium"
         minSdk = 30
         targetSdk = 36
-        versionCode = 20
-        versionName = "1.8.5"
+        versionCode = 21
+        versionName = "1.8.6"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
