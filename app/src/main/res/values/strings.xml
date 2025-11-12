@@ -351,7 +351,7 @@
 
     <string name="proton_calendar" translatable="false">Proton Calendar</string>
     <string name="protoncalendar_description">
-        Proton Calendar is an encrypted calendar service available to Proton members via web or mobile clients.
+        Proton Calendar is an encrypted calendar service available to Proton members via its web or mobile clients.
         Features include: automatic E2EE of all data, sharing features, import/export functionality, and more.
     </string>
     <string name="protoncalendar_page" translatable="false">https://proton.me/calendar</string>
@@ -444,7 +444,7 @@
         Evolution is a personal information management application that provides integrated mail,
         calendaring and address book functionality.
     </string>
-    <string name="evolution_page" translatable="false">https://wiki.gnome.org/Apps/Evolution</string>
+    <string name="evolution_page" translatable="false">https://gnome.pages.gitlab.gnome.org/evolution/help</string>
 
     <string name="kontact" translatable="false">Kontact</string>
     <string name="kontact_description">
@@ -1148,14 +1148,6 @@
     </string>
     <string name="adguard_dns_page" translatable="false">https://adguard-dns.io/en/public-dns.html</string>
 
-    <string name="dns0_eu" translatable="false">DNS0.eu</string>
-    <string name="dns0_eu_description">
-        Supports advanced DNS encryption protocols,
-        including DNS over HTTPS (DoH) and DNS over TLS (DoT)
-        and DNS over QUIC (DoQ)
-    </string>
-    <string name="dns0_eu_page" translatable="false">https://dns0.eu/</string>
-
     <string name="pi_hole" translatable="false">Pi-hole</string>
     <string name="pihole_description">
         Pi-hole is an open-source DNS-sinkhole which features a friendly web interface to view insights and manage blocked content.
@@ -1285,15 +1277,6 @@
         DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
     </string>
     <string name="duckduckgo_page" translatable="false">https://duckduckgo.com/</string>
-
-    <string name="mullvad_leta" translatable="false">Mullvad Leta</string>
-    <string name="mullvad_leta_description">
-        Mullvad Leta is a search engine developed by Mullvad.
-        It uses a shared cache to fetch search results and limit calls to the search APIs it uses.
-        Mullvad Leta currently only provides text search results.
-        It is the default search engine for the Mullvad Browser.
-    </string>
-    <string name="mullvad_leta_page" translatable="false">https://leta.mullvad.net/</string>
 
     <string name="startpage" translatable="false">Startpage</string>
     <string name="startpage_description">
