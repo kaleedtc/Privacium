@@ -38,7 +38,8 @@ import com.kaleedtc.privacium.ui.theme.screens.search.SearchScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.AboutScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.LanguageSelectionScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.SettingsScreen
-import com.kaleedtc.privacium.ui.theme.screens.settings.StartupCategorySelectionScreen
+import com.kaleedtc.privacium.ui.theme.screens.settings.customization.StartupCategorySelectionScreen
+import com.kaleedtc.privacium.ui.theme.screens.settings.customization.CustomizationScreen
 import com.kaleedtc.privacium.ui.theme.screens.settings.ThemeSelectionScreen
 import com.kaleedtc.privacium.utils.getCategories
 import kotlinx.coroutines.flow.map
@@ -156,7 +157,7 @@ fun MainScreen(
                 SettingsScreen(
                     onShowThemeSelection = { navController.navigate("theme_selection") },
                     onShowLanguageSelection = { navController.navigate("language_selection") },
-                    onShowStartupCategorySelection = { navController.navigate("startup_category_selection") },
+                    onShowCustomization = { navController.navigate("customization_screen") },
                     onShowAbout = { navController.navigate("about_screen") },
                     onBack = {
                         navController.navigate(BottomNavItem.Home.route) {
@@ -179,6 +180,13 @@ fun MainScreen(
                 AboutScreen {
                     navController.popBackStack()
                 }
+            }
+            composable("customization_screen") {
+                CustomizationScreen(
+                    dataStore = dataStore,
+                    onShowStartupCategorySelection = { navController.navigate("startup_category_selection") },
+                    onBack = { navController.popBackStack() }
+                )
             }
             composable("startup_category_selection") {
                 StartupCategorySelectionScreen(dataStore = dataStore) {

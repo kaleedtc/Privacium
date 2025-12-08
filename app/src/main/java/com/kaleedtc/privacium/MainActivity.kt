@@ -7,11 +7,19 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.activity.compose.BackHandler
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.stringResource
 import androidx.core.os.LocaleListCompat
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -27,6 +35,7 @@ import com.kaleedtc.privacium.utils.createLocalizedContext
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.kaleedtc.privacium.data.SHOW_EXIT_DIALOG_KEY
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import java.util.Locale
@@ -36,7 +45,6 @@ class MainActivity : ComponentActivity() {
     companion object {
         lateinit var activityDataStore: DataStore<Preferences>
     }
-
     override fun attachBaseContext(newBase: Context) {
         val sharedPrefs = newBase.getSharedPreferences("app_prefs", MODE_PRIVATE)
         val currentLanguageCode =
@@ -99,12 +107,40 @@ class MainActivity : ComponentActivity() {
                     androidx.compose.ui.unit.LayoutDirection.Ltr
                 }
             }
+            var showExitDialog by remember { mutableStateOf(false) }
+            val preferences by dataStore.data.collectAsState(initial = null)
+            val showExitDialogEnabled = preferences?.get(SHOW_EXIT_DIALOG_KEY) ?: true
+
+            BackHandler(enabled = true) {
+                if (showExitDialogEnabled) {
+                    showExitDialog = true
+                } else {
+                    finish()
+                }
+            }
 
             CompositionLocalProvider(
                 LocalContext provides localizedContext,
                 LocalLayoutDirection provides layoutDirection
             ) {
                 SevenTheme(themeOption = currentThemeOption) {
+                    if (showExitDialog) {
+                        AlertDialog(
+                            onDismissRequest = { showExitDialog = false },
+                            title = { Text(text = stringResource(id = R.string.confirm_exit_title)) },
+                            text = { Text(text = stringResource(id = R.string.confirm_exit_message)) },
+                            confirmButton = {
+                                TextButton(onClick = { finish() }) {
+                                    Text(text = stringResource(id = R.string.yes))
+                                }
+                            },
+                            dismissButton = {
+                                TextButton(onClick = { showExitDialog = false }) {
+                                    Text(text = stringResource(id = R.string.no))
+                                }
+                            }
+                        )
+                    }
                     MainScreen(
                         dataStore = this.dataStore, activity = this
                     )
