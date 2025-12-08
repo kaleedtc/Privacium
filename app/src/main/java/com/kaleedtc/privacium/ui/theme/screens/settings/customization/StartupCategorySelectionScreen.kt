@@ -1,4 +1,4 @@
-package com.kaleedtc.privacium.ui.theme.screens.settings
+package com.kaleedtc.privacium.ui.theme.screens.settings.customization
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

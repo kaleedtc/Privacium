@@ -1,4 +1,4 @@
-package com.kaleedtc.privacium.ui.theme.screens.settings
+package com.kaleedtc.privacium.ui.theme.screens.settings.customization
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Spacer
@@ -9,10 +9,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Build
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Language
-import androidx.compose.material.icons.filled.Palette
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -22,43 +20,39 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
 import com.kaleedtc.privacium.R
+import com.kaleedtc.privacium.data.SHOW_EXIT_DIALOG_KEY
 import com.kaleedtc.privacium.data.SettingItem
 import com.kaleedtc.privacium.ui.theme.components.SettingListItem
+import com.kaleedtc.privacium.ui.theme.components.SwitchSettingListItem
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SettingsScreen(
-    onShowThemeSelection: () -> Unit,
-    onShowLanguageSelection: () -> Unit,
-    onShowAbout: () -> Unit,
-    onShowCustomization: () -> Unit,
+fun CustomizationScreen(
+    dataStore: DataStore<Preferences>,
+    onShowStartupCategorySelection: () -> Unit,
     onBack: () -> Unit,
 ) {
+    val scope = rememberCoroutineScope()
+    val preferences by dataStore.data.collectAsState(initial = null)
+    val showExitDialog = preferences?.get(SHOW_EXIT_DIALOG_KEY) ?: true
+
     val settingCategories = listOf(
         SettingItem(
-            title = stringResource(R.string.theme_setting_title),
-            icon = Icons.Filled.Palette,
-            onClick = onShowThemeSelection
-        ),
-        SettingItem(
-            title = stringResource(R.string.language_setting_title),
-            icon = Icons.Filled.Language,
-            onClick = onShowLanguageSelection
-        ),
-        SettingItem(
-            title = stringResource(R.string.customization),
-            icon = Icons.Filled.Build,
-            onClick = onShowCustomization
-        ),
-        SettingItem(
-            title = stringResource(R.string.about_setting_title),
-            icon = Icons.Filled.Info,
-            onClick = onShowAbout
+            title = stringResource(R.string.choose_startup_category),
+            icon = Icons.Filled.Home,
+            onClick = onShowStartupCategorySelection
         )
     )
 
@@ -75,7 +69,7 @@ fun SettingsScreen(
         topBar = {
             MediumTopAppBar(
                 title = {
-                    Text(stringResource(R.string.settings_title))
+                    Text(stringResource(R.string.customization))
                 },
                 scrollBehavior = scrollBehavior,
                 navigationIcon = {
@@ -104,6 +98,26 @@ fun SettingsScreen(
                 SettingListItem(item = item) {
                     item.onClick()
                 }
+            }
+            item {
+                Spacer(modifier = Modifier.height(8.dp))
+            }
+            item {
+                SwitchSettingListItem(
+                    item = SettingItem(
+                        title = stringResource(R.string.confirm_on_exit),
+                        icon = Icons.Filled.CheckCircle,
+                        onClick = {}
+                    ),
+                    checked = showExitDialog,
+                    onCheckedChange = {
+                        scope.launch {
+                            dataStore.edit { settings ->
+                                settings[SHOW_EXIT_DIALOG_KEY] = it
+                            }
+                        }
+                    }
+                )
             }
         }
     }
