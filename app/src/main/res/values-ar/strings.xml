@@ -23,6 +23,12 @@
     <string name="choose_startup_category">التبويب الافتراضي</string>
     <string name="search_in">ابحث في %1$s</string>
     <string name="all">تحديد الكل</string>
+    <string name="customization">التخصيص</string>
+    <string name="confirm_on_exit">تأكيد الإغلاق</string>
+    <string name="confirm_exit_title">تأكيد الإغلاق</string>
+    <string name="confirm_exit_message">هل تريد الخروج من التطبيق؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
 
     <string name="internet_browsing">متصفحات الويب</string>
     <string name="desktop_browsers">متصفحات الحاسوب</string>
