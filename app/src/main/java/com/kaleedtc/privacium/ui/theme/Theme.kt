@@ -111,6 +111,7 @@ fun SevenTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = SevenTypography,
+        shapes = ExpressiveShapes,
         content = content
     )
 }
