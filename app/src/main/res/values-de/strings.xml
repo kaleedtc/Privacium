@@ -5,11 +5,11 @@
     <string name="bottom_nav_settings">Einstellungen</string>
     <string name="bottom_nav_search">Suche</string>
     <string name="settings_title">Einstellungen</string>
-    <string name="theme_setting_title">Thema</string>
+    <string name="theme_setting_title">Design</string>
     <string name="language_setting_title">Sprache</string>
     <string name="about_setting_title">Über</string>
     <string name="choose_startup_category">Startkategorie auswählen</string>
-    <string name="choose_theme_title">Thema auswählen</string>
+    <string name="choose_theme_title">Design auswählen</string>
     <string name="theme_auto">System Standard</string>
     <string name="theme_dark">Dunkel</string>
     <string name="theme_light">Hell</string>
@@ -18,7 +18,7 @@
     <string name="homepage_label">Startseite</string>
     <string name="developer_label">Entwickler</string>
     <string name="all">Alle</string>
-    <string name="search_for_tools">Suche nach Werkzeugen…</string>
+    <string name="search_for_tools">Nach Werkzeugen suchen…</string>
     <string name="search_in">Suche in%1$s</string>
     <string name="no_tools_found_for">Keine Werkzeuge für \"%1$s\" gefunden</string>
     <string name="internet_browsing">Browser</string>
@@ -231,4 +231,10 @@
     <string name="adguard_home_description">AdGuard Home ist ein Open-Source-DNS-Sinkhole mit einer ausgefeilten Weboberfläche, über die man Einblicke erhalten und blockierte Inhalte verwalten kann.</string>
     <string name="apple_fitness_description">Apple Fitness ist die Standard-Fitness-App für iOS. Apple Fitness verwendet bei der Synchronisierung über mehrere Geräte hinweg stets eine End-to-End-Verschlüsselung. Darüber hinaus werden fast alle gemessenen Daten auf deinem Gerät verarbeitet.</string>
     <string name="keepassium_description">KeePassium ist ein kommerzieller Open-Source-Passwortmanager von KeePassium Labs, der mit anderen KeePass-Anwendungen kompatibel ist. Er bietet Unterstützung für die automatische Ausfüllung, Passwortverwaltung, automatische Zwei-Wege-Synchronisierung über die meisten Cloud-Speicheranbieter und vieles mehr.</string>
+    <string name="customization">Anpassung</string>
+    <string name="confirm_on_exit">Beim Beenden bestätigen</string>
+    <string name="confirm_exit_title">Beenden bestätigen</string>
+    <string name="confirm_exit_message">Möchtest du wirklich beenden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
 </resources>
