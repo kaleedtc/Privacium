@@ -53,13 +53,14 @@ fun MainScreen(
     val categories = remember { getCategories(context) }
 
     var selectedCategory by remember { mutableStateOf(categories.first()) }
+    val defaultCategoryName = stringResource(R.string.software)
 
     LaunchedEffect(Unit) {
         dataStore.data.map { preferences ->
             preferences[STARTUP_CATEGORY_KEY]
         }.collect { startupCategoryName ->
             selectedCategory = categories.find { it.name == startupCategoryName }
-                ?: categories.find { it.name == context.getString(R.string.software) }
+                ?: categories.find { it.name == defaultCategoryName }
                         ?: categories.first()
         }
     }
