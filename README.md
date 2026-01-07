@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
   <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
+  <a href="https://ko-fi.com/Z8Z31RUEUU">
+  <img src="https://img.shields.io/badge/ko--fi-donate-%23FF5E5B?style=flat&logo=ko-fi&logoColor=white" alt="Ko-Fi"/>
 </p>
 
 ---
