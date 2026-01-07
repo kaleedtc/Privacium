@@ -72,3 +72,8 @@ This project is distributed under the MIT License. See [LICENSE](https://github.
 ## 🙏 Acknowledgments
 - A huge thanks to the entire team at [**Privacy Guides**](https://www.privacyguides.org) for their work and for maintaining the standards that this app relies on.
 - All the contributors who will help make this app better.
+
+## Donate
+If you find Privacium valuable, please use any of the following links to sponsor or make a donation:
+
+<a href="https://ko-fi.com/Z8Z31RUEUU" target="_blank" rel="noopener noreferrer"> <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"> </a>
