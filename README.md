@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
   <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
+  <a href="https://ko-fi.com/Z8Z31RUEUU">
+  <img src="https://img.shields.io/badge/ko--fi-donate-%23FF5E5B?style=flat&logo=ko-fi&logoColor=white" alt="Ko-Fi"/>
 </p>
 
 ---
@@ -70,3 +72,8 @@ This project is distributed under the MIT License. See [LICENSE](https://github.
 ## 🙏 Acknowledgments
 - A huge thanks to the entire team at [**Privacy Guides**](https://www.privacyguides.org) for their work and for maintaining the standards that this app relies on.
 - All the contributors who will help make this app better.
+
+## Donate
+If you find Privacium valuable, please use any of the following links to sponsor or make a donation:
+
+<a href="https://ko-fi.com/Z8Z31RUEUU" target="_blank" rel="noopener noreferrer"> <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"> </a>
