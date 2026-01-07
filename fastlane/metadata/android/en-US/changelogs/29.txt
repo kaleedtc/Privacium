@@ -1,0 +1,2 @@
+- Add support for Portuguese and update translations.
+- Added Donate link to the About screen, directing users to the project's donation page.
