@@ -100,6 +100,12 @@ fun AboutScreen(
                     url = stringResource(R.string.developer_homepage_url)
                 )
             }
+            item {
+                LinkRow(
+                    label = stringResource(R.string.donate_label),
+                    url = stringResource(R.string.donate_url)
+                )
+            }
         }
     }
 }

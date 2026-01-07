@@ -32,6 +32,7 @@
     <string name="homepage">Homepage</string>
     <string name="homepage_label">Homepage</string>
     <string name="developer_label">Developer</string>
+    <string name="donate_label">Donate</string>
 
     <!-- Message shown when a search returns no results. %1$s is the search query. -->
     <!-- e.g., "No tools found for "Firefox"." -->
@@ -1333,5 +1334,6 @@
     <string name="back_button_content_description" translatable="false">Navigate back to the previous screen</string>
     <string name="developer_homepage_url" translatable="false">https://github.com/kaleedtc</string>
     <string name="app_homepage_url" translatable="false">https://github.com/kaleedtc/Privacium</string>
+    <string name="donate_url" translatable="false">https://github.com/kaleedtc/Privacium?tab=readme-ov-file#donate</string>
 
 </resources>
