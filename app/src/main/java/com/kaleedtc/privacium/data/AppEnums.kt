@@ -32,6 +32,7 @@ enum class LanguageOption(
     French("fr", "French"),
     German("de", "German"),
     Italian("it", "Italian"),
+    Portuguese("pt", "Portuguese"),
     Thai("th", "Thai"),
     Turkish("tr", "Turkish");
 

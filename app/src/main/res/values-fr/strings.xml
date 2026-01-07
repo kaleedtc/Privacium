@@ -10,7 +10,7 @@
     <string name="about_setting_title">A propos</string>
     <string name="app_description">Privacium est une application axée sur la protection de la vie privée, qui propose une liste sélectionnée de logiciels et services respectueux de la confidentialité.</string>
     <string name="homepage">Page d\'accueil</string>
-    <string name="choose_theme_title">Choisir thème</string>
+    <string name="choose_theme_title">Choisir le thème</string>
     <string name="theme_dark">Sombre</string>
     <string name="theme_light">Clair</string>
     <string name="internet_browsing">Navigation sur Internet</string>
@@ -41,7 +41,7 @@
     <string name="file_sharing">Partage de fichiers</string>
     <string name="metadata">Métadonnées</string>
     <string name="document_collaboration">Collaboration documentaire</string>
-    <string name="encryption">Cryptage</string>
+    <string name="encryption">Chiffrement</string>
     <string name="frontends">Interfaces frontales</string>
     <string name="health">Santé</string>
     <string name="language_tools">Outils linguistiques</string>
@@ -58,7 +58,7 @@
     <string name="socialnetworks">Réseaux sociaux</string>
     <string name="brave_description">Brave est basé sur le projet de navigateur Web Chromium et comprend un bloqueur de contenu intégré et des fonctionnalités de confidentialité, dont beaucoup sont activées par défaut.</string>
     <string name="firefox_description">Firefox propose des paramètres de confidentialité performants tels que la protection renforcée contre le suivi, qui peut aider à bloquer différents types de suivi.</string>
-    <string name="mullvad_browser_description">Mullvad Browser est une version de Tor Browser, sans intégration au réseau Tor. Il vise à fournir aux utilisateurs de VPN les technologies anti-empreintes digitales de Tor Browser, qui constituent une protection essentielle contre la surveillance de masse. Développé par le projet Tor et distribué par Mullvad, il ne nécessite pas l\'utilisation du VPN de Mullvad.</string>
+    <string name="mullvad_browser_description">Mullvad Browser est une version de Tor Browser, sans intégration au réseau Tor. Il vise à fournir aux utilisateurs de VPN les technologies anti-empreintes digitales de Tor Browser, qui constituent une protection essentielle contre la surveillance de masse. Il est développé par le projet Tor et distribué par Mullvad, il ne nécessite pas l\'utilisation du VPN de Mullvad.</string>
     <string name="cromite_description">Cromite est un navigateur basé sur Chromium avec blocage des publicités intégré, protections par empreintes digitales et autres améliorations de confidentialité et de sécurité.</string>
     <string name="safari_description">Safari est le navigateur par défaut d\'iOS. Il inclut des fonctionnalités de confidentialité telles que la prévention intelligente du suivi, des onglets de navigation privée isolés et éphémères, la protection par empreinte digitale et la randomisation des empreintes digitales.</string>
     <string name="ublock_origin_description">uBlock Origin est un bloqueur de contenu populaire qui pourrait vous aider à bloquer les publicités, les trackers et les scripts d\'empreintes digitales.</string>
@@ -68,4 +68,14 @@
     <string name="onion_browser_description">Onion Browser est un navigateur open source qui vous permet de naviguer sur le Web de manière anonyme sur le réseau Tor sur les appareils iOS et est approuvé par le projet Tor.</string>
     <string name="fedora_description">Fedora Linux est notre distribution de bureau recommandée pour les nouveaux utilisateurs de Linux. Fedora adopte généralement les nouvelles technologies avant les autres distributions. Ces nouvelles technologies s\'accompagnent souvent d\'améliorations en termes de sécurité, de confidentialité et d\'ergonomie générale.</string>
     <string name="opensuse_tumbleweed_description">openSUSE Tumbleweed est une distribution stable et continue. openSUSE Tumbleweed utilise Btrfs et Snapper pour garantir que les snapshots peuvent être restaurés en cas de problème.</string>
+    <string name="desktop">Bureau</string>
+    <string name="ai_chat">Chat IA</string>
+    <string name="search_engines">Moteurs de recherche</string>
+    <string name="vpn_services">Services VPN</string>
+    <string name="mobile_phones">Téléphones mobiles</string>
+    <string name="security_keys">Clés de sécurité</string>
+    <string name="alternative_networks">Réseaux alternatifs</string>
+    <string name="email_servers">Serveurs d\'emails</string>
+    <string name="frontend">Interface frontale</string>
+    <string name="nixos_description">NixOS est une distribution indépendante basée sur le gestionnaire de paquets Nix avec un focus sur la reproductibilité et fiabilité.</string>
 </resources>
