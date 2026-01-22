@@ -1,3 +1,0 @@
-- Removed DNS0.eu as it's being discontinued.
-- Removed Mullvad Leta as it's being discontinued.
-- Updated the link for Evolution to reflect the latest information.

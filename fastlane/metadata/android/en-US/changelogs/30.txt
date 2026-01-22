@@ -1,0 +1,4 @@
+- This update brings significant under-the-hood improvements.
+
+See full changelogs:
+https://github.com/kaleedtc/Privacium/releases

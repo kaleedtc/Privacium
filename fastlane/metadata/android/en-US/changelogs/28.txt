@@ -1,2 +1,0 @@
-- Fixed an issue where the app could crash upon navigating to the main screen.
-- Update core Android Jetpack libraries.

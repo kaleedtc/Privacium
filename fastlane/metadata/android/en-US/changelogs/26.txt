@@ -1,6 +1,0 @@
-- A confirmation dialog is now shown before exiting the app.
-- A new "Customization" section has been added to the settings.
-- Updated the app icon
-- The UI has been refined.
-- Updated translations.
-- Updated core Android Jetpack dependencies.

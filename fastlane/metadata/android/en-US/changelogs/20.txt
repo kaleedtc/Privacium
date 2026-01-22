@@ -1,3 +1,0 @@
-- Update mat2 link to GitHub.
-- Refine Peergos description.
-- Update translations.
