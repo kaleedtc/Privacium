@@ -14,7 +14,7 @@ data class CategoryTool(
 data class Tool(
     val title: String,
     val description: String,
-    @DrawableRes val icon: Int,
+    @param:DrawableRes val icon: Int,
     val homepage: String? = null
 )
 

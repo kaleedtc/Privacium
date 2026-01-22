@@ -44,7 +44,7 @@ enum class LanguageOption(
 }
 
 enum class BottomNavItem(
-    @StringRes val label: Int,
+    @param:StringRes val label: Int,
     val icon: ImageVector,
     val route: String
 ) {
