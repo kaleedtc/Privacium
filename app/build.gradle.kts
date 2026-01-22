@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
-android {
+configure<com.android.build.api.dsl.ApplicationExtension> {
     namespace = "com.kaleedtc.privacium"
     compileSdk = 36
 
