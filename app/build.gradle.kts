@@ -14,8 +14,8 @@ configure<com.android.build.api.dsl.ApplicationExtension> {
         applicationId = "com.kaleedtc.privacium"
         minSdk = 30
         targetSdk = 36
-        versionCode = 30
-        versionName = "2.0.4"
+        versionCode = 31
+        versionName = "2.0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
