@@ -281,12 +281,6 @@ fun getFrontendsTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.freetubeapp_page)
         ),
         Tool(
-            title = context.getString(R.string.yattee),
-            description = context.getString(R.string.yattee_description),
-            icon = R.drawable.yattee,
-            homepage = context.getString(R.string.yattee_page)
-        ),
-        Tool(
             title = context.getString(R.string.libretube),
             description = context.getString(R.string.libretube_description),
             icon = R.drawable.libretube,
