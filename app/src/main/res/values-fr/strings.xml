@@ -78,4 +78,5 @@
     <string name="email_servers">Serveurs d\'emails</string>
     <string name="frontend">Interface frontale</string>
     <string name="nixos_description">NixOS est une distribution indépendante basée sur le gestionnaire de paquets Nix avec un focus sur la reproductibilité et fiabilité.</string>
+    <string name="developer_label">développeur</string>
 </resources>
