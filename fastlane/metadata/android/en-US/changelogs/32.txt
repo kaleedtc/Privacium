@@ -1,0 +1,3 @@
+- Removed "Yattee" from the Frontends recommendations.
+- Added full support for Spanish (Español).
+- Update dependencies and translations.
