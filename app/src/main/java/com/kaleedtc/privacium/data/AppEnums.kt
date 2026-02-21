@@ -33,6 +33,7 @@ enum class LanguageOption(
     German("de", "German"),
     Italian("it", "Italian"),
     Portuguese("pt", "Portuguese"),
+    Spanish("es", "Spanish"),
     Thai("th", "Thai"),
     Turkish("tr", "Turkish");
 
