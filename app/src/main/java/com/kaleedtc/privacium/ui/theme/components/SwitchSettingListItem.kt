@@ -24,6 +24,7 @@ fun SwitchSettingListItem(
     onCheckedChange: (Boolean) -> Unit
 ) {
     Surface(
+        onClick = { onCheckedChange(!checked) },
         modifier = Modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.medium,
         color = MaterialTheme.colorScheme.surfaceVariant
