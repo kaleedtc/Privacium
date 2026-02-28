@@ -1,6 +1,6 @@
 package com.kaleedtc.privacium.ui.theme.components
 
-import androidx.compose.foundation.clickable
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -31,10 +31,10 @@ fun SubCategoryTool(
     val cardBackgroundColor = MaterialTheme.colorScheme.surfaceContainerHigh
 
     ElevatedCard(
+        onClick = { onSubCategoryClick(subCategoryName) },
         modifier = Modifier
             .fillMaxWidth()
-            .height(115.dp)
-            .clickable { onSubCategoryClick(subCategoryName) },
+            .height(115.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = cardBackgroundColor)
     ) {

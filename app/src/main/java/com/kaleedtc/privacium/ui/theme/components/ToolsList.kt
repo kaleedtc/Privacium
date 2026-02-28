@@ -2,6 +2,7 @@ package com.kaleedtc.privacium.ui.theme.components
 
 import android.content.Intent
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Animatable
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -13,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandLess
-import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
@@ -23,10 +23,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -37,6 +40,7 @@ import androidx.compose.ui.unit.sp
 import androidx.core.net.toUri
 import com.kaleedtc.privacium.R
 import com.kaleedtc.privacium.data.Tool
+import kotlinx.coroutines.launch
 
 @Composable
 fun ToolsList(tool: Tool) {
@@ -46,12 +50,24 @@ fun ToolsList(tool: Tool) {
     val cardBackgroundColor = MaterialTheme.colorScheme.surfaceContainerHigh
 
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+
+    val chevronIconRotation = remember {
+        Animatable(
+            initialValue = 0f
+        )
+    }
 
     ElevatedCard(
+        onClick = {
+            expanded = !expanded
+            scope.launch {
+                chevronIconRotation.animateTo(targetValue = if (expanded) 180f else 0f)
+            }
+        },
         modifier = Modifier
             .animateContentSize()
             .fillMaxWidth()
-            .clickable { expanded = !expanded }
             .padding(8.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = cardBackgroundColor)
@@ -79,9 +95,10 @@ fun ToolsList(tool: Tool) {
                     modifier = Modifier.weight(1f)
                 )
                 Icon(
-                    imageVector = if (expanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore,
+                    imageVector = Icons.Default.ExpandLess,
                     contentDescription = if (expanded) "Collapse" else "Expand",
-                    tint = MaterialTheme.colorScheme.primary
+                    tint = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.rotate(chevronIconRotation.value)
                 )
             }
 
