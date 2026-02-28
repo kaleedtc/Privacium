@@ -1,0 +1,4 @@
+- Fixed touch feedback shapes on buttons and list items to match their rounded corners.
+- Added smooth rotation animations to dropdown menu arrows.
+- Updated Estonian translation.
+- Update dependencies.
