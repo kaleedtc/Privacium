@@ -79,3 +79,15 @@ If you find Privacium valuable, please use any of the following links to sponsor
 <a href="https://ko-fi.com/Z8Z31RUEUU" target="_blank" rel="noopener noreferrer"> <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"> </a>
 
 <noscript><a href="https://liberapay.com/kaleedtc/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+**BTC:**
+`bc1q92235uhffydjj5w5av3fs96vn0n6g0zprx7rhk`
+
+**XMR:**
+`46Sc8LznRrhQz6Qwng12RZ13W3V6tj5LDF7cJJ5yL7Li62vfLDFBktbcZ2wqk3XmDS3dkRVfcFd65LwSJEw1Xigp3HETSz5`
+
+**BCH:**
+`qqsnx346jfddmvtqws5kmadlrut4vk7fg5hxysldfe`
+
+**LTC:**
+`ltc1q3ck68nwpj8zm7qsxegsvjxcayatsj7duze2zvn`
