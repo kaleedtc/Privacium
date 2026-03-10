@@ -26,6 +26,7 @@ enum class LanguageOption(
 ) {
     SYSTEM("system", "System default"),
     Arabic("ar", "Arabic"),
+    Chinese("zh", "Chinese"),
     Dutch("nl", "Dutch"),
     English("en", "English"),
     Estonian("et", "Estonian"),
