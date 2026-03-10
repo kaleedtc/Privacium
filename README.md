@@ -83,11 +83,11 @@ If you find Privacium valuable, please use any of the following links to sponsor
 **BTC:**
 `bc1q92235uhffydjj5w5av3fs96vn0n6g0zprx7rhk`
 
-**XMR:**
-`46Sc8LznRrhQz6Qwng12RZ13W3V6tj5LDF7cJJ5yL7Li62vfLDFBktbcZ2wqk3XmDS3dkRVfcFd65LwSJEw1Xigp3HETSz5`
-
 **BCH:**
 `qqsnx346jfddmvtqws5kmadlrut4vk7fg5hxysldfe`
 
 **LTC:**
 `ltc1q3ck68nwpj8zm7qsxegsvjxcayatsj7duze2zvn`
+
+**XMR:**
+`46Sc8LznRrhQz6Qwng12RZ13W3V6tj5LDF7cJJ5yL7Li62vfLDFBktbcZ2wqk3XmDS3dkRVfcFd65LwSJEw1Xigp3HETSz5`
