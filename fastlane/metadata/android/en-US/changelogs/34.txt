@@ -1,0 +1,3 @@
+- Add full support for Chinese (Simplified Han script).
+- Updated donation options.
+- Update dependencies.
