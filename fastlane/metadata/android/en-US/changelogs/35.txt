@@ -1,0 +1,2 @@
+- Remove Foojay toolchain resolver to fix reproducible builds.
+- General performance and stability improvements.
