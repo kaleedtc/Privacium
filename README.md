@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
   <a href="https://ko-fi.com/Z8Z31RUEUU">
   <img src="https://img.shields.io/badge/ko--fi-donate-%23FF5E5B?style=flat&logo=ko-fi&logoColor=white" alt="Ko-Fi"/>
+  <a href="https://liberapay.com/kaleedtc/donate">
+  <img src="https://img.shields.io/badge/Liberapay-F6C915?style=flat&logo=liberapay&logoColor=black"/>
 </p>
 
 ---
