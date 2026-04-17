@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/Kotlin-2.3.10-7F52FF?style=flat&logo=Kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpack-compose&logoColor=white" alt="Jetpack Compose"/>
   <img src="https://img.shields.io/github/license/kaleedtc/Privacium?style=flat" alt="License"/>
+  <img src="https://shields.rbtlog.dev/simple/com.kaleedtc.privacium"/>
+  <img src="https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/com.kaleedtc.privacium&label=IzzyOnDroid"/>
   <a href="https://github.com/kaleedtc/Privacium/releases/latest">
   <img src="https://img.shields.io/github/v/release/kaleedtc/Privacium?style=flat&label=Release&logo=github" alt="Release"/>
   <a href="https://ko-fi.com/Z8Z31RUEUU">
@@ -32,7 +34,7 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 Privacium is available to download from the official [GitHub Releases page](https://github.com/kaleedtc/Privacium/releases), but you can also keep track of updates with [Obtainium](https://github.com/ImranR98/Obtainium#-obtainium).
 
 <a href="https://github.com/kaleedtc/Privacium/releases"><img src="./assets/graphics/badge_github.png" alt="Get it on GitHub" height="150"></a>
-<a href="https://obtainium.imranr.dev/add?url=https://github.com/kaleedtc/Privacium"><img src="./assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="150"></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/kaleedtc/Privacium"><img src="assets/graphics/badge_obtainium.png" height="150" alt="Get it on Obtainium">
 <a href="https://apt.izzysoft.de/fdroid/index/apk/com.kaleedtc.privacium"><img src="./assets/graphics/badge_izzyondroid.png" alt="Get it on IzzyOnDroid" height="150"></a>
 
 ---
