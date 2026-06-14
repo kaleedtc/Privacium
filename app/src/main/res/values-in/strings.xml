@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_nav_home">Utama</string>
+    <string name="bottom_nav_settings">Pengaturan</string>
+    <string name="bottom_nav_search">Cari</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="theme_setting_title">Tema</string>
+    <string name="language_setting_title">Bahasa</string>
+    <string name="about_setting_title">Tentang</string>
+    <string name="choose_startup_category">Pilih kategori memulai</string>
+    <string name="choose_theme_title">Pilih tema</string>
+    <string name="theme_auto">Bawaan sistem</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_light">Terang</string>
+    <string name="choose_language_title">Pilih bahasa</string>
+    <string name="homepage">Halaman utama</string>
+    <string name="homepage_label">Halaman utama</string>
+    <string name="developer_label">Developer</string>
+</resources>
