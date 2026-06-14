@@ -1,0 +1,4 @@
+- Added Indonesian language support.
+- Expanded Spanish translations for various app descriptions.
+- Updated Ente branding, icon, and website URLs.
+- eneral performance and stability improvements.
