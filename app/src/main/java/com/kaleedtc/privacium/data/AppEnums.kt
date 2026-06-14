@@ -32,6 +32,7 @@ enum class LanguageOption(
     Estonian("et", "Estonian"),
     French("fr", "French"),
     German("de", "German"),
+    Indonesian("id", "Indonesian"),
     Italian("it", "Italian"),
     Portuguese("pt", "Portuguese"),
     Spanish("es", "Spanish"),
