@@ -731,7 +731,7 @@
         It can be used with an online account to back up and sync your tokens across your devices
         in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
     </string>
-    <string name="auth_page" translatable="false">https://ente.io/auth</string>
+    <string name="auth_page" translatable="false">https://ente.com/auth</string>
 
     <string name="aegis" translatable="false">Aegis Authenticator</string>
     <string name="aegis_description">
@@ -1258,7 +1258,7 @@
         Their code is fully open-source, both on the client side and on the server side. It is also self-hostable.
         The free plan offers 10 GB of storage as long as you use the service at least once a year.
     </string>
-    <string name="ente_page" translatable="false">https://ente.io/</string>
+    <string name="ente_page" translatable="false">https://ente.com/</string>
 
     <string name="photoprism" translatable="false">PhotoPrism</string>
     <string name="photoprism_description">
