@@ -1,0 +1,4 @@
+- Added Metadata Cleaner to the metadata section.
+- Removed Cromite from mobile browser recommendations.
+- Removed Proxitok from frontend recommendations.
+- General performance and stability improvements.
