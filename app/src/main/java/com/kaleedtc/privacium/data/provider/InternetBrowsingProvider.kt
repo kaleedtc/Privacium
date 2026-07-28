@@ -36,12 +36,6 @@ fun getMobileBrowsersTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.brave_page),
         ),
         Tool(
-            title = context.getString(R.string.cromite),
-            description = context.getString(R.string.cromite_description),
-            icon = R.drawable.cromite,
-            homepage = context.getString(R.string.cromite_page)
-        ),
-        Tool(
             title = context.getString(R.string.safari),
             description = context.getString(R.string.safari_description),
             icon = R.drawable.safari_ios,

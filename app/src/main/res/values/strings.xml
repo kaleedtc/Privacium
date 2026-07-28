@@ -397,6 +397,12 @@
     </string>
     <string name="mat2_page" translatable="false">https://github.com/jvoisin/mat2</string>
 
+    <string name="metadata_cleaner" translatable="false">Metadata Cleaner</string>
+    <string name="metadata_cleaner_description">
+        Metadata Cleaner is a graphical metadata removal tool for Linux powered by MAT2.
+    </string>
+    <string name="metadata_cleaner_page" translatable="false">https://metadatacleaner.gitlab.io/metadatacleaner/</string>
+
     <string name="exiferaser" translatable="false">ExifEraser</string>
     <string name="exiferaser_description">
         ExifEraser is a modern, permissionless image metadata erasing application for Android.

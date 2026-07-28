@@ -87,12 +87,6 @@ fun getFrontendTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.redlib_page)
         ),
         Tool(
-            title = context.getString(R.string.proxitok),
-            description = context.getString(R.string.proxitok_description),
-            icon = R.drawable.proxitok,
-            homepage = context.getString(R.string.proxitok_page)
-        ),
-        Tool(
             title = context.getString(R.string.invidious),
             description = context.getString(R.string.invidious_description),
             icon = R.drawable.invidious,

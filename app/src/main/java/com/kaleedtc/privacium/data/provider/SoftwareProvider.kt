@@ -82,6 +82,12 @@ fun getMetadataTools(context: Context): List<Tool> {
             homepage = context.getString(R.string.mat2_page)
         ),
         Tool(
+            title = context.getString(R.string.metadata_cleaner),
+            description = context.getString(R.string.metadata_cleaner_description),
+            icon = R.drawable.metadatacleaner,
+            homepage = context.getString(R.string.metadata_cleaner_page)
+        ),
+        Tool(
             title = context.getString(R.string.exiferaser),
             description = context.getString(R.string.exiferaser_description),
             icon = R.drawable.exiferaser,
@@ -255,12 +261,6 @@ fun getFrontendsTools(context: Context): List<Tool> {
             description = context.getString(R.string.redlib_description),
             icon = R.drawable.redlib,
             homepage = context.getString(R.string.redlib_page)
-        ),
-        Tool(
-            title = context.getString(R.string.proxitok),
-            description = context.getString(R.string.proxitok_description),
-            icon = R.drawable.proxitok,
-            homepage = context.getString(R.string.proxitok_page)
         ),
         Tool(
             title = context.getString(R.string.invidious),
