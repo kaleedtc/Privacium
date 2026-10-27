@@ -23,12 +23,12 @@ This app is built with modern Android technologies, including Kotlin and Jetpack
 
 ---
 ## ✨ Features
-- **🔒 Privacy First:** No ads, no tracking, no permissions requested.
-- **🎨 Dynamic Theming:** Automatically adapts to your wallpaper and system theme on Android 12 and newer.
-- **🌍 Full RTL Support:** Perfect usability for right-to-left languages like Arabic.
-- **🚀 Modern UI:** A clean and responsive user interface built entirely with Jetpack Compose.
-- **❤️ FOSS:** 100% Free and Open-Source Software.
-- **📚 Trusted Information:** All recommendations and guides are based on the criteria from the [Privacy Guides](https://www.privacyguides.org) team.
+- **🔒 Privacy First:** No ads, no tracking, no permissions requested
+- **🎨 Dynamic Theming:** Automatically adapts to your wallpaper and system theme on Android 12 and newer
+- **🌍 Full RTL Support:** Perfect usability for right-to-left languages like Arabic
+- **🚀 Modern UI:** A clean and responsive user interface built entirely with Jetpack Compose
+- **❤️ FOSS:** 100% Free and Open-Source Software
+- **📚 Trusted Information:** All recommendations and guides are based on the criteria from the [Privacy Guides](https://www.privacyguides.org) team
 
 ---
 
@@ -93,5 +93,14 @@ If you find Privacium valuable, please consider donating to the project via opti
 **LTC:**
 `ltc1q3ck68nwpj8zm7qsxegsvjxcayatsj7duze2zvn`
 
+**ETH:**
+`0xD2b51F35a886C59f12b416bD772Dc3371dc8189D`
+
+**SOL:**
+`6CHBgZXJMgGTu7yaY3o1dTBTR3YH7DqoVHv9QtiKmaT4`
+
 **XMR:**
 `46Sc8LznRrhQz6Qwng12RZ13W3V6tj5LDF7cJJ5yL7Li62vfLDFBktbcZ2wqk3XmDS3dkRVfcFd65LwSJEw1Xigp3HETSz5`
+
+**ZEC:**
+`u14mnfch36cn7wpxdazal5cr8gvenmnjxx8jsgfxtn4q04xhx5hqf0xyr6xkmczmjgvuth6fxj08x8yd36ud6tcv7aase6e4txkccscls2`
